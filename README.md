@@ -17,5 +17,3 @@ This repository contains deliverables and source code for Team Charlie's NSCC pr
 - reports/ – Final reports and outputs
 
 
-## Usage
-Instructions on how to use or run the project.
