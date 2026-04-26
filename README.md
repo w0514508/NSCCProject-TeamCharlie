@@ -11,6 +11,7 @@ This project analyzes historical climate and environmental trends in Atlantic Ca
 - Chisom Njoku
 - Tracy Odaro
 - Danielle Aranha
+- Michael Okafor
 
 ## Folder Structure
 - data/raw/ – Original datasets
