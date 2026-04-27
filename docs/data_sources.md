@@ -2,9 +2,6 @@
 
 This document lists the data sources used in the NSCC Capstone Project.
 
-
-# Data Sources
-
 ## Monthly Historical Climate Data
 
 Data Source: Monthly Historical Climate Data
