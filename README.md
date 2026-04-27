@@ -22,136 +22,134 @@ This project analyzes historical climate and environmental trends in Atlantic Ca
 
 ## Work Responsibilities - 4 Topic Areas
 
-- Average Temperatures
-Owner: Yashaswi Tiwari
+---
 
-Goal:
-Analyze how average temperature patterns have changed in Atlantic Canada over the past 30 years, with focus on Nova Scotia weather stations.
-Dashboard Elements:
+# Average Temperatures  
+**Owner:** Yashaswi Tiwari  
 
-KPI Card:
+- **Goal**
+  - Analyze how average temperature patterns have changed in Atlantic Canada over the past 30 years
+  - Focus on Nova Scotia weather stations
 
-Average Annual Temperature
+- **Dashboard Elements**
+  - **KPI Card**
+    - Average Annual Temperature
+  - **Slicers**
+    - Year
+    - Station
+  - **Visuals**
+    - Line Chart
+      - Average annual temperature trend
+    - Heatmap Calendar
+      - Daily temperature anomalies
+    - Bar Chart
+      - Year-over-year temperature change
+    - Forecast Visualization
+      - Average annual temperature forecast for the next 5 years
+      - Selected Nova Scotia weather station
+      - Python model overlay
+    - Anomaly Chart
+      - Deviation from 30-year baseline
+      - Confidence bands
 
+- **Python / Pandas Analysis**
+  - Exploratory Data Analysis (EDA)
+  - Temperature anomaly calculation
+    - Compared to 30-year baseline
+  - Trend modeling
+    - Linear regression or polynomial fit
+  - Forecasting
+    - Short-term temperature forecasting using a simple ARIMA model
 
-Slicers:
+---
 
-Year
-Station
+# Average Precipitation & Extreme Weather Events  
+**Owner:** Danielle Aranha  
 
+- **Goal**
+  - Analyze precipitation pattern changes in Atlantic Canada over the past 30 years
+  - Identify trends in extreme weather events
 
+- **Dashboard Elements**
+  - **KPI Card**
+    - Annual Precipitation
+  - **Slicers**
+    - Year
+    - Station
+  - **Visuals**
+    - Dual-Axis Line Chart
+      - Average temperature
+      - Average precipitation over decades
+    - Bar Chart
+      - Year-over-year precipitation change
+    - Extreme Weather Event Analysis
+      - High wind event frequency
+      - Heavy precipitation event frequency
+    - Trend Chart
+      - Extreme weather event frequency over time
+    - Anomaly Chart
+      - Deviation from 30-year baseline
+      - Confidence bands
 
-Visuals:
+- **Python / Pandas Analysis**
+  - Precipitation frequency analysis
+  - Detection of measurable trends in extreme weather events
+  - Export Outputs
+    - Anomaly values as CSV
+    - Forecast series as CSV for Power BI
 
-Line chart showing average annual temperature trend
-Heatmap calendar displaying daily temperature anomalies
-Bar chart showing year-over-year temperature change
-Forecast visualization showing average annual temperature for the next 5 years for a selected NS weather station with Python model overlay
-Anomaly chart showing deviation from the 30-year baseline with confidence bands
+---
 
-Python / Pandas Analysis:
+# Greenhouse Gas (GHG) Emissions  
+**Owner:** Michael Okafor  
 
-Exploratory Data Analysis (EDA)
-Temperature anomaly calculation compared to 30-year baseline
-Trend modeling using linear regression or polynomial fit
-Short-term temperature forecasting using a simple ARIMA model
+- **Goal**
+  - Analyze changes in GHG emissions over the past decade
+  - Identify provinces or regions with the greatest change
 
+- **Dashboard Elements**
+  - **KPI Card**
+    - Nova Scotia GHG Change (%)
+  - **Slicers**
+    - Year
+    - Province / Region
+  - **Visuals**
+    - Stacked Area Chart
+      - GHG emissions by province over time
+    - Bar Chart
+      - Nova Scotia emissions by sector
+    - Line Chart
+      - Nova Scotia vs national (Canada-wide) target trend
 
+---
 
-- Average Precipitation & Extreme Weather Events
-Owner: Danielle Aranha
+# Air Quality Index (AQI)  
+**Owner:** Chisom Njoku  
 
-Goal:
-Analyze precipitation pattern changes in Atlantic Canada over the past 30 years and identify trends in extreme weather events.
-Dashboard Elements:
+- **Goal**
+  - Analyze AQI trends
+  - Examine correlations with seasonal patterns and industrial activity
 
-KPI Card:
+- **Dashboard Elements**
+  - **KPI Card**
+    - AQI Index
+  - **Slicers**
+    - Year
+    - Monitoring Station
+  - **Visuals**
+    - Line Chart
+      - AQI over time by monitoring station
+    - Bar Chart
+      - Days exceeding AQI threshold by month
+    - Map Visualization
+      - AQI monitoring station locations
+      - Color-coded AQI values
 
-Annual Precipitation
-
-
-Slicers:
-
-Year
-Station
-
-
-
-Visuals:
-
-Dual-axis line chart showing average temperature and precipitation over decades
-Bar chart showing year-over-year precipitation change
-Extreme weather event frequency analysis focusing on:
-
-High wind events
-Heavy precipitation events
-
-
-Trend chart showing frequency of extreme weather events over time
-Anomaly chart showing deviation from 30-year baseline with confidence bands
-
-Python / Pandas Analysis:
-
-Precipitation frequency analysis
-Identification of measurable trends in extreme weather events
-Export of anomaly values and forecast series as CSV files for Power BI
-
-
-
-- Greenhouse Gas (GHG) Emissions
-Owner: Michael Okafor
-
-Goal:
-Analyze changes in greenhouse gas emissions over the past decade and identify provinces or regions with the greatest change.
-Dashboard Elements:
-
-KPI Card:
-
-Nova Scotia GHG Change (%)
-
-
-Slicers:
-
-Year
-Province / Region
-
-
-
-Visuals:
-
-Stacked area chart showing GHG emissions by province over time
-Bar chart showing Nova Scotia emissions by sector
-Line chart comparing Nova Scotia emissions against the national (Canada-wide) emissions target trend
-
-
-
-- Air Quality Index (AQI)
-Owner: Chisom Njoku
-
-Goal:
-Analyze AQI trends and examine correlations with seasonal patterns and industrial activity.
-Dashboard Elements:
-
-KPI Card:
-
-AQI Index
-
-
-Slicers:
-
-Year
-Monitoring Station
-
-
-
-Visuals:
-
-Line chart showing AQI over time by monitoring station
-Bar chart showing number of days exceeding AQI thresholds by month
-Map visualization showing AQI monitoring station locations with color-coded AQI values
-
-Data Analysis:
-
-Correlation analysis between AQI and seasonal (monthly) patterns
-Correlation analysis between AQI and wind direction and wind speed from weather stations
-Export of anomaly values and forecast series as CSV files for Power BI
+- **Data Analysis**
+  - Correlation Analysis
+    - AQI vs seasonal (monthly) patterns
+    - AQI vs wind direction and wind speed
+  - Export Outputs
+    - Anomaly values as CSV
+    - Forecast series as CSV for Power BI
+``
