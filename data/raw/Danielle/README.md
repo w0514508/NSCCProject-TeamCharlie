@@ -1,10 +1,9 @@
 # Raw Precipitation Data
 
-This folder contains raw monthly climate data downloaded from Environment and Climate Change Canada (ECCC).
+This dataset will contain monthly precipitation observations for Atlantic Canada
+(NS, NB, PE, NL) for the period 1995–2025.
 
-- Data source: ECCC Historical Monthly Climate Data
-- Station: Yarmouth (NS)
-- Time coverage: 1940–2012
-- Variable: Total Precipitation (mm)
+Raw data is sourced from ECCC Climate Observations (monthly CSV).
+The climate station list is used only to filter valid stations.
 
-These files are stored in their original format and have not been modified.
+Final output will serve as the Fact_Precipitation table in the star schema
