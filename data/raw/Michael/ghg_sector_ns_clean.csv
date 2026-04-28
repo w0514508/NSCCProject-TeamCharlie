@@ -1,0 +1,1379 @@
+Year,Sectors,Emissions
+2013-01-01,Accommodation and food services [BS72000],59.0
+2013-01-01,Administrative and support services [BS56100],34.0
+2013-01-01,"Advertising, promotion, meals, entertainment, and travel [FC20000]",0.0
+2013-01-01,"Advertising, public relations and related services [BS54180]",1.0
+2013-01-01,Aerospace product and parts manufacturing [BS33640],8.0
+2013-01-01,Air transportation [BS48100],381.0
+2013-01-01,Animal food manufacturing [BS31110],8.0
+2013-01-01,"Arts, entertainment and recreation [BS71000]",2.0
+2013-01-01,Balancing item: Aviation,-241.0
+2013-01-01,Balancing item: Biomass,-1528.0
+2013-01-01,Balancing item: Motor fuels,-250.0
+2013-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,103.0
+2013-01-01,Balancing item: Other differences,671.0
+2013-01-01,Balancing item: Synthetic fluorinated gases,270.0
+2013-01-01,Balancing item: Waste,510.0
+2013-01-01,Basic chemical manufacturing [BS32510],17.0
+2013-01-01,Breweries [BS31212],3.0
+2013-01-01,Cement and concrete product manufacturing [BS32730],277.0
+2013-01-01,Clothing and leather and allied product manufacturing [BS31B00],13.0
+2013-01-01,Coal mining [BS21210],92.0
+2013-01-01,Communication engineering construction [BS23C40],2.0
+2013-01-01,Computer and peripheral equipment manufacturing [BS33410],0.0
+2013-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",12.0
+2013-01-01,Converted paper product manufacturing [BS32220],13.0
+2013-01-01,Crop and animal production [BS11A00],573.0
+2013-01-01,Dairy product manufacturing [BS31150],12.0
+2013-01-01,Depository credit intermediation and monetary authorities [BS52B00],7.0
+2013-01-01,Educational services (except universities) [GS611B0],48.0
+2013-01-01,Educational services [BS61000],1.0
+2013-01-01,Electric power engineering construction [BS23C30],3.0
+2013-01-01,"Electric power generation, transmission and distribution [BS22110]",7224.0
+2013-01-01,Electrical  equipment and component manufacturing [BS335A0],1.0
+2013-01-01,Electronic product manufacturing [BS334B0],4.0
+2013-01-01,Fabricated metal product manufacturing [BS33200],16.0
+2013-01-01,"Fishing, hunting and trapping [BS11400]",219.0
+2013-01-01,Forestry and logging [BS11300],195.0
+2013-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],15.0
+2013-01-01,Furniture and related product manufacturing [BS33700],4.0
+2013-01-01,Health care and social assistance [BS62000],63.0
+2013-01-01,Hospitals [GS62200],26.0
+2013-01-01,Household appliance manufacturing [BS33520],0.0
+2013-01-01,Households: Electricity and other fuels,2203.0
+2013-01-01,Households: Motor fuels and lubricants,2330.0
+2013-01-01,Insurance carriers [BS52410],3.0
+2013-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",13.0
+2013-01-01,Lessors of real estate [BS53110],76.0
+2013-01-01,Machinery manufacturing [BS33300],5.0
+2013-01-01,Meat product manufacturing [BS31160],33.0
+2013-01-01,Metal ore mining [BS21220],0.0
+2013-01-01,Miscellaneous chemical product manufacturing [BS325C0],3.0
+2013-01-01,Miscellaneous food manufacturing [BS311A0],15.0
+2013-01-01,Miscellaneous manufacturing [BS33900],5.0
+2013-01-01,Miscellaneous non-profit institutions serving households [NPA0000],20.0
+2013-01-01,Motion picture and sound recording industries [BS51200],4.0
+2013-01-01,Motor vehicle body and trailer manufacturing [BS33620],0.0
+2013-01-01,Motor vehicle manufacturing [BS33610],1.0
+2013-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2013-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",3.0
+2013-01-01,Non-metallic mineral mining and quarrying [BS21230],29.0
+2013-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],5.0
+2013-01-01,"Non-profit arts, entertainment and recreation [NP71000]",1.0
+2013-01-01,Non-profit education services [NP61000],1.0
+2013-01-01,Non-profit social assistance [NP62400],2.0
+2013-01-01,Non-residential building construction [BS23B00],8.0
+2013-01-01,Nursing and residential care facilities [GS62300],4.0
+2013-01-01,Office supplies [FC13000],0.0
+2013-01-01,Oil and gas engineering construction [BS23C20],2.0
+2013-01-01,Oil and gas extraction [BS21100],591.0
+2013-01-01,Operating supplies [FC12000],0.0
+2013-01-01,Other Indigenous government services [GS91400],3.0
+2013-01-01,Other activities of the construction industry [BS23E00],14.0
+2013-01-01,Other engineering construction [BS23C50],2.0
+2013-01-01,Other federal government services [GS91100],232.0
+2013-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",68.0
+2013-01-01,Other municipal government services [GS91300],111.0
+2013-01-01,Other provincial and territorial government services [GS91200],54.0
+2013-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2013-01-01,Owner-occupied dwellings [BS5311A],0.0
+2013-01-01,Personal services and private households [BS81A00],11.0
+2013-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",4.0
+2013-01-01,Petroleum and coal product manufacturing [BS32400],777.0
+2013-01-01,Pharmaceutical and medicine manufacturing [BS32540],2.0
+2013-01-01,Pipeline transportation [BS48600],4.0
+2013-01-01,Plastic product manufacturing [BS32610],9.0
+2013-01-01,Postal service and couriers and messengers [BS49A00],40.0
+2013-01-01,Primary metal manufacturing [BS33100],0.0
+2013-01-01,Printing and related support activities [BS32300],1.0
+2013-01-01,Professional and similar organisations [BS81300],0.0
+2013-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",14.0
+2013-01-01,"Pulp, paper and paperboard mills [BS32210]",714.0
+2013-01-01,Radio and television broadcasting [BS51510],1.0
+2013-01-01,Rail transportation [BS48200],29.0
+2013-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2013-01-01,Religious organizations [NP81310],7.0
+2013-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],45.0
+2013-01-01,Repair and maintenance [BS81100],37.0
+2013-01-01,Repair and maintenance [FC11000],0.0
+2013-01-01,Repair construction [BS23D00],11.0
+2013-01-01,Residential building construction [BS23A00],24.0
+2013-01-01,Retail trade [BS4A000],227.0
+2013-01-01,Rubber product manufacturing [BS32620],32.0
+2013-01-01,Seafood product preparation and packaging [BS31170],80.0
+2013-01-01,Ship and boat building [BS33660],2.0
+2013-01-01,Soft drink and ice manufacturing [BS31211],1.0
+2013-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2013-01-01,Support activities for agriculture and forestry [BS11500],53.0
+2013-01-01,Support activities for mining and oil and gas extraction [BS21300],69.0
+2013-01-01,Textile and textile product mills [BS31A00],17.0
+2013-01-01,Tobacco manufacturing [BS31220],0.0
+2013-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",84.0
+2013-01-01,Transportation engineering construction [BS23C10],14.0
+2013-01-01,Transportation margins [FC30000],0.0
+2013-01-01,Truck transportation [BS48400],347.0
+2013-01-01,Universities [GS61130],29.0
+2013-01-01,Warehousing and storage [BS49300],5.0
+2013-01-01,Waste management and remediation services [BS56200],41.0
+2013-01-01,Water transportation [BS48300],362.0
+2013-01-01,Wholesale trade [BS41000],113.0
+2013-01-01,Wineries and distilleries [BS3121A],1.0
+2013-01-01,Wood product manufacturing [BS32100],127.0
+2014-01-01,Accommodation and food services [BS72000],51.0
+2014-01-01,Administrative and support services [BS56100],32.0
+2014-01-01,"Advertising, promotion, meals, entertainment, and travel [FC20000]",0.0
+2014-01-01,"Advertising, public relations and related services [BS54180]",2.0
+2014-01-01,Aerospace product and parts manufacturing [BS33640],4.0
+2014-01-01,Air transportation [BS48100],348.0
+2014-01-01,Animal food manufacturing [BS31110],8.0
+2014-01-01,"Arts, entertainment and recreation [BS71000]",2.0
+2014-01-01,Balancing item: Aviation,-238.0
+2014-01-01,Balancing item: Biomass,-1918.0
+2014-01-01,Balancing item: Motor fuels,-229.0
+2014-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,18.0
+2014-01-01,Balancing item: Other differences,585.0
+2014-01-01,Balancing item: Synthetic fluorinated gases,281.0
+2014-01-01,Balancing item: Waste,532.0
+2014-01-01,Basic chemical manufacturing [BS32510],6.0
+2014-01-01,Breweries [BS31212],2.0
+2014-01-01,Cannabis production (licensed) [BS111CL],0.0
+2014-01-01,Cannabis production (unlicensed) [BS111CU],3.0
+2014-01-01,Cannabis stores (licensed) [BS453BL],0.0
+2014-01-01,Cannabis stores (unlicensed) [BS453BU],1.0
+2014-01-01,Cement and concrete product manufacturing [BS32730],282.0
+2014-01-01,Clothing and leather and allied product manufacturing [BS31B00],1.0
+2014-01-01,Coal mining [BS21210],1.0
+2014-01-01,Communication engineering construction [BS23C40],2.0
+2014-01-01,Computer and peripheral equipment manufacturing [BS33410],0.0
+2014-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",11.0
+2014-01-01,Converted paper product manufacturing [BS32220],12.0
+2014-01-01,Crop and animal production (except cannabis) [BS11B00],468.0
+2014-01-01,Crop and animal production [BS11A00],0.0
+2014-01-01,Dairy product manufacturing [BS31150],4.0
+2014-01-01,Depository credit intermediation and monetary authorities [BS52B00],5.0
+2014-01-01,Educational services (except universities) [GS611B0],47.0
+2014-01-01,Educational services [BS61000],1.0
+2014-01-01,Electric power engineering construction [BS23C30],4.0
+2014-01-01,"Electric power generation, transmission and distribution [BS22110]",6736.0
+2014-01-01,Electrical  equipment and component manufacturing [BS335A0],1.0
+2014-01-01,Electronic product manufacturing [BS334B0],2.0
+2014-01-01,Fabricated metal product manufacturing [BS33200],13.0
+2014-01-01,"Fishing, hunting and trapping [BS11400]",209.0
+2014-01-01,Forestry and logging [BS11300],186.0
+2014-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],23.0
+2014-01-01,Furniture and related product manufacturing [BS33700],2.0
+2014-01-01,Health care and social assistance [BS62000],60.0
+2014-01-01,Hospitals [GS62200],21.0
+2014-01-01,Household appliance manufacturing [BS33520],0.0
+2014-01-01,Households: Electricity and other fuels,2049.0
+2014-01-01,Households: Motor fuels and lubricants,2156.0
+2014-01-01,Insurance carriers [BS52410],2.0
+2014-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",11.0
+2014-01-01,Lessors of real estate [BS53110],65.0
+2014-01-01,Machinery manufacturing [BS33300],2.0
+2014-01-01,Meat product manufacturing [BS31160],38.0
+2014-01-01,Metal ore mining [BS21220],0.0
+2014-01-01,Miscellaneous chemical product manufacturing [BS325C0],1.0
+2014-01-01,Miscellaneous food manufacturing [BS311A0],15.0
+2014-01-01,Miscellaneous manufacturing [BS33900],2.0
+2014-01-01,Miscellaneous non-profit institutions serving households [NPA0000],18.0
+2014-01-01,Motion picture and sound recording industries [BS51200],4.0
+2014-01-01,Motor vehicle body and trailer manufacturing [BS33620],0.0
+2014-01-01,Motor vehicle manufacturing [BS33610],1.0
+2014-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2014-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",2.0
+2014-01-01,Non-metallic mineral mining and quarrying [BS21230],28.0
+2014-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],7.0
+2014-01-01,"Non-profit arts, entertainment and recreation [NP71000]",1.0
+2014-01-01,Non-profit education services [NP61000],1.0
+2014-01-01,Non-profit social assistance [NP62400],1.0
+2014-01-01,Non-residential building construction [BS23B00],7.0
+2014-01-01,Nursing and residential care facilities [GS62300],4.0
+2014-01-01,Office supplies [FC13000],0.0
+2014-01-01,Oil and gas engineering construction [BS23C20],1.0
+2014-01-01,Oil and gas extraction [BS21100],796.0
+2014-01-01,Operating supplies [FC12000],0.0
+2014-01-01,Other Indigenous government services [GS91400],3.0
+2014-01-01,Other activities of the construction industry [BS23E00],14.0
+2014-01-01,Other engineering construction [BS23C50],1.0
+2014-01-01,Other federal government services [GS91100],220.0
+2014-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",54.0
+2014-01-01,Other municipal government services [GS91300],102.0
+2014-01-01,Other provincial and territorial government services [GS91200],36.0
+2014-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2014-01-01,Owner-occupied dwellings [BS5311A],0.0
+2014-01-01,Personal services and private households [BS81A00],10.0
+2014-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",2.0
+2014-01-01,Petroleum and coal product manufacturing [BS32400],3.0
+2014-01-01,Pharmaceutical and medicine manufacturing [BS32540],7.0
+2014-01-01,Pipeline transportation [BS48600],9.0
+2014-01-01,Plastic product manufacturing [BS32610],6.0
+2014-01-01,Postal service and couriers and messengers [BS49A00],30.0
+2014-01-01,Primary metal manufacturing [BS33100],0.0
+2014-01-01,Printing and related support activities [BS32300],3.0
+2014-01-01,Professional and similar organisations [BS81300],0.0
+2014-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",15.0
+2014-01-01,"Pulp, paper and paperboard mills [BS32210]",1094.0
+2014-01-01,Radio and television broadcasting [BS51510],1.0
+2014-01-01,Rail transportation [BS48200],29.0
+2014-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2014-01-01,Religious organizations [NP81310],6.0
+2014-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],27.0
+2014-01-01,Repair and maintenance [BS81100],35.0
+2014-01-01,Repair and maintenance [FC11000],0.0
+2014-01-01,Repair construction [BS23D00],11.0
+2014-01-01,Residential building construction [BS23A00],21.0
+2014-01-01,Retail trade (except cannabis) [BS4AA00],218.0
+2014-01-01,Retail trade [BS4A000],0.0
+2014-01-01,Rubber product manufacturing [BS32620],48.0
+2014-01-01,Seafood product preparation and packaging [BS31170],85.0
+2014-01-01,Ship and boat building [BS33660],3.0
+2014-01-01,Soft drink and ice manufacturing [BS31211],2.0
+2014-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2014-01-01,Support activities for agriculture and forestry [BS11500],45.0
+2014-01-01,Support activities for mining and oil and gas extraction [BS21300],31.0
+2014-01-01,Textile and textile product mills [BS31A00],21.0
+2014-01-01,Tobacco manufacturing [BS31220],0.0
+2014-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",81.0
+2014-01-01,Transportation engineering construction [BS23C10],15.0
+2014-01-01,Transportation margins [FC30000],0.0
+2014-01-01,Truck transportation [BS48400],404.0
+2014-01-01,Universities [GS61130],25.0
+2014-01-01,Warehousing and storage [BS49300],4.0
+2014-01-01,Waste management and remediation services [BS56200],20.0
+2014-01-01,Water transportation [BS48300],315.0
+2014-01-01,Wholesale trade [BS41000],104.0
+2014-01-01,Wineries and distilleries [BS3121A],1.0
+2014-01-01,Wood product manufacturing [BS32100],167.0
+2015-01-01,Accommodation and food services [BS72000],59.0
+2015-01-01,Administrative and support services [BS56100],52.0
+2015-01-01,"Advertising, promotion, meals, entertainment, and travel [FC20000]",0.0
+2015-01-01,"Advertising, public relations and related services [BS54180]",2.0
+2015-01-01,Aerospace product and parts manufacturing [BS33640],5.0
+2015-01-01,Air transportation [BS48100],246.0
+2015-01-01,Animal food manufacturing [BS31110],5.0
+2015-01-01,"Arts, entertainment and recreation [BS71000]",2.0
+2015-01-01,Balancing item: Aviation,-168.0
+2015-01-01,Balancing item: Biomass,-1803.0
+2015-01-01,Balancing item: Motor fuels,-223.0
+2015-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,14.0
+2015-01-01,Balancing item: Other differences,640.0
+2015-01-01,Balancing item: Synthetic fluorinated gases,294.0
+2015-01-01,Balancing item: Waste,503.0
+2015-01-01,Basic chemical manufacturing [BS32510],1.0
+2015-01-01,Breweries [BS31212],4.0
+2015-01-01,Cannabis production (licensed) [BS111CL],0.0
+2015-01-01,Cannabis production (unlicensed) [BS111CU],3.0
+2015-01-01,Cannabis stores (licensed) [BS453BL],0.0
+2015-01-01,Cannabis stores (unlicensed) [BS453BU],1.0
+2015-01-01,Cement and concrete product manufacturing [BS32730],283.0
+2015-01-01,Clothing and leather and allied product manufacturing [BS31B00],1.0
+2015-01-01,Coal mining [BS21210],1.0
+2015-01-01,Communication engineering construction [BS23C40],2.0
+2015-01-01,Computer and peripheral equipment manufacturing [BS33410],0.0
+2015-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",12.0
+2015-01-01,Converted paper product manufacturing [BS32220],19.0
+2015-01-01,Crop and animal production (except cannabis) [BS11B00],457.0
+2015-01-01,Crop and animal production [BS11A00],0.0
+2015-01-01,Dairy product manufacturing [BS31150],5.0
+2015-01-01,Depository credit intermediation and monetary authorities [BS52B00],6.0
+2015-01-01,Educational services (except universities) [GS611B0],57.0
+2015-01-01,Educational services [BS61000],2.0
+2015-01-01,Electric power engineering construction [BS23C30],4.0
+2015-01-01,"Electric power generation, transmission and distribution [BS22110]",6457.0
+2015-01-01,Electrical  equipment and component manufacturing [BS335A0],0.0
+2015-01-01,Electronic product manufacturing [BS334B0],1.0
+2015-01-01,Fabricated metal product manufacturing [BS33200],14.0
+2015-01-01,"Fishing, hunting and trapping [BS11400]",256.0
+2015-01-01,Forestry and logging [BS11300],176.0
+2015-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],6.0
+2015-01-01,Furniture and related product manufacturing [BS33700],2.0
+2015-01-01,Health care and social assistance [BS62000],63.0
+2015-01-01,Hospitals [GS62200],28.0
+2015-01-01,Household appliance manufacturing [BS33520],0.0
+2015-01-01,Households: Electricity and other fuels,2164.0
+2015-01-01,Households: Motor fuels and lubricants,2542.0
+2015-01-01,Insurance carriers [BS52410],3.0
+2015-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",14.0
+2015-01-01,Lessors of real estate [BS53110],78.0
+2015-01-01,Machinery manufacturing [BS33300],3.0
+2015-01-01,Meat product manufacturing [BS31160],12.0
+2015-01-01,Metal ore mining [BS21220],0.0
+2015-01-01,Miscellaneous chemical product manufacturing [BS325C0],2.0
+2015-01-01,Miscellaneous food manufacturing [BS311A0],21.0
+2015-01-01,Miscellaneous manufacturing [BS33900],3.0
+2015-01-01,Miscellaneous non-profit institutions serving households [NPA0000],26.0
+2015-01-01,Motion picture and sound recording industries [BS51200],5.0
+2015-01-01,Motor vehicle body and trailer manufacturing [BS33620],0.0
+2015-01-01,Motor vehicle manufacturing [BS33610],1.0
+2015-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2015-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",3.0
+2015-01-01,Non-metallic mineral mining and quarrying [BS21230],31.0
+2015-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],12.0
+2015-01-01,"Non-profit arts, entertainment and recreation [NP71000]",1.0
+2015-01-01,Non-profit education services [NP61000],1.0
+2015-01-01,Non-profit social assistance [NP62400],1.0
+2015-01-01,Non-residential building construction [BS23B00],8.0
+2015-01-01,Nursing and residential care facilities [GS62300],5.0
+2015-01-01,Office supplies [FC13000],0.0
+2015-01-01,Oil and gas engineering construction [BS23C20],1.0
+2015-01-01,Oil and gas extraction [BS21100],613.0
+2015-01-01,Operating supplies [FC12000],0.0
+2015-01-01,Other Indigenous government services [GS91400],3.0
+2015-01-01,Other activities of the construction industry [BS23E00],17.0
+2015-01-01,Other engineering construction [BS23C50],2.0
+2015-01-01,Other federal government services [GS91100],263.0
+2015-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",68.0
+2015-01-01,Other municipal government services [GS91300],115.0
+2015-01-01,Other provincial and territorial government services [GS91200],34.0
+2015-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2015-01-01,Owner-occupied dwellings [BS5311A],0.0
+2015-01-01,Personal services and private households [BS81A00],14.0
+2015-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",2.0
+2015-01-01,Petroleum and coal product manufacturing [BS32400],9.0
+2015-01-01,Pharmaceutical and medicine manufacturing [BS32540],4.0
+2015-01-01,Pipeline transportation [BS48600],7.0
+2015-01-01,Plastic product manufacturing [BS32610],6.0
+2015-01-01,Postal service and couriers and messengers [BS49A00],43.0
+2015-01-01,Primary metal manufacturing [BS33100],0.0
+2015-01-01,Printing and related support activities [BS32300],3.0
+2015-01-01,Professional and similar organisations [BS81300],0.0
+2015-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",22.0
+2015-01-01,"Pulp, paper and paperboard mills [BS32210]",934.0
+2015-01-01,Radio and television broadcasting [BS51510],1.0
+2015-01-01,Rail transportation [BS48200],30.0
+2015-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2015-01-01,Religious organizations [NP81310],7.0
+2015-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],32.0
+2015-01-01,Repair and maintenance [BS81100],42.0
+2015-01-01,Repair and maintenance [FC11000],0.0
+2015-01-01,Repair construction [BS23D00],16.0
+2015-01-01,Residential building construction [BS23A00],36.0
+2015-01-01,Retail trade (except cannabis) [BS4AA00],225.0
+2015-01-01,Retail trade [BS4A000],0.0
+2015-01-01,Rubber product manufacturing [BS32620],55.0
+2015-01-01,Seafood product preparation and packaging [BS31170],50.0
+2015-01-01,Ship and boat building [BS33660],5.0
+2015-01-01,Soft drink and ice manufacturing [BS31211],3.0
+2015-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2015-01-01,Support activities for agriculture and forestry [BS11500],61.0
+2015-01-01,Support activities for mining and oil and gas extraction [BS21300],33.0
+2015-01-01,Textile and textile product mills [BS31A00],8.0
+2015-01-01,Tobacco manufacturing [BS31220],0.0
+2015-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",93.0
+2015-01-01,Transportation engineering construction [BS23C10],16.0
+2015-01-01,Transportation margins [FC30000],0.0
+2015-01-01,Truck transportation [BS48400],397.0
+2015-01-01,Universities [GS61130],34.0
+2015-01-01,Warehousing and storage [BS49300],4.0
+2015-01-01,Waste management and remediation services [BS56200],38.0
+2015-01-01,Water transportation [BS48300],258.0
+2015-01-01,Wholesale trade [BS41000],112.0
+2015-01-01,Wineries and distilleries [BS3121A],1.0
+2015-01-01,Wood product manufacturing [BS32100],161.0
+2016-01-01,Accommodation and food services [BS72000],51.0
+2016-01-01,Administrative and support services [BS56100],51.0
+2016-01-01,"Advertising, promotion, meals, entertainment, and travel [FC20000]",0.0
+2016-01-01,"Advertising, public relations and related services [BS54180]",2.0
+2016-01-01,Aerospace product and parts manufacturing [BS33640],10.0
+2016-01-01,Air transportation [BS48100],247.0
+2016-01-01,Animal food manufacturing [BS31110],3.0
+2016-01-01,"Arts, entertainment and recreation [BS71000]",2.0
+2016-01-01,Balancing item: Aviation,-185.0
+2016-01-01,Balancing item: Biomass,-1771.0
+2016-01-01,Balancing item: Motor fuels,-231.0
+2016-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,22.0
+2016-01-01,Balancing item: Other differences,574.0
+2016-01-01,Balancing item: Synthetic fluorinated gases,295.0
+2016-01-01,Balancing item: Waste,516.0
+2016-01-01,Basic chemical manufacturing [BS32510],4.0
+2016-01-01,Breweries [BS31212],5.0
+2016-01-01,Cannabis production (licensed) [BS111CL],1.0
+2016-01-01,Cannabis production (unlicensed) [BS111CU],3.0
+2016-01-01,Cannabis stores (licensed) [BS453BL],0.0
+2016-01-01,Cannabis stores (unlicensed) [BS453BU],1.0
+2016-01-01,Cement and concrete product manufacturing [BS32730],287.0
+2016-01-01,Clothing and leather and allied product manufacturing [BS31B00],1.0
+2016-01-01,Coal mining [BS21210],1.0
+2016-01-01,Communication engineering construction [BS23C40],4.0
+2016-01-01,Computer and peripheral equipment manufacturing [BS33410],0.0
+2016-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",16.0
+2016-01-01,Converted paper product manufacturing [BS32220],17.0
+2016-01-01,Crop and animal production (except cannabis) [BS11B00],449.0
+2016-01-01,Crop and animal production [BS11A00],0.0
+2016-01-01,Dairy product manufacturing [BS31150],5.0
+2016-01-01,Depository credit intermediation and monetary authorities [BS52B00],5.0
+2016-01-01,Educational services (except universities) [GS611B0],35.0
+2016-01-01,Educational services [BS61000],2.0
+2016-01-01,Electric power engineering construction [BS23C30],12.0
+2016-01-01,"Electric power generation, transmission and distribution [BS22110]",6374.0
+2016-01-01,Electrical  equipment and component manufacturing [BS335A0],1.0
+2016-01-01,Electronic product manufacturing [BS334B0],1.0
+2016-01-01,Fabricated metal product manufacturing [BS33200],13.0
+2016-01-01,"Fishing, hunting and trapping [BS11400]",252.0
+2016-01-01,Forestry and logging [BS11300],173.0
+2016-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],5.0
+2016-01-01,Furniture and related product manufacturing [BS33700],2.0
+2016-01-01,Health care and social assistance [BS62000],60.0
+2016-01-01,Hospitals [GS62200],18.0
+2016-01-01,Household appliance manufacturing [BS33520],0.0
+2016-01-01,Households: Electricity and other fuels,1859.0
+2016-01-01,Households: Motor fuels and lubricants,2560.0
+2016-01-01,Insurance carriers [BS52410],2.0
+2016-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",15.0
+2016-01-01,Lessors of real estate [BS53110],53.0
+2016-01-01,Machinery manufacturing [BS33300],3.0
+2016-01-01,Meat product manufacturing [BS31160],14.0
+2016-01-01,Metal ore mining [BS21220],0.0
+2016-01-01,Miscellaneous chemical product manufacturing [BS325C0],1.0
+2016-01-01,Miscellaneous food manufacturing [BS311A0],18.0
+2016-01-01,Miscellaneous manufacturing [BS33900],3.0
+2016-01-01,Miscellaneous non-profit institutions serving households [NPA0000],18.0
+2016-01-01,Motion picture and sound recording industries [BS51200],5.0
+2016-01-01,Motor vehicle body and trailer manufacturing [BS33620],0.0
+2016-01-01,Motor vehicle manufacturing [BS33610],1.0
+2016-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2016-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",3.0
+2016-01-01,Non-metallic mineral mining and quarrying [BS21230],24.0
+2016-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],5.0
+2016-01-01,"Non-profit arts, entertainment and recreation [NP71000]",1.0
+2016-01-01,Non-profit education services [NP61000],1.0
+2016-01-01,Non-profit social assistance [NP62400],1.0
+2016-01-01,Non-residential building construction [BS23B00],9.0
+2016-01-01,Nursing and residential care facilities [GS62300],3.0
+2016-01-01,Office supplies [FC13000],0.0
+2016-01-01,Oil and gas engineering construction [BS23C20],1.0
+2016-01-01,Oil and gas extraction [BS21100],475.0
+2016-01-01,Operating supplies [FC12000],0.0
+2016-01-01,Other Indigenous government services [GS91400],4.0
+2016-01-01,Other activities of the construction industry [BS23E00],19.0
+2016-01-01,Other engineering construction [BS23C50],4.0
+2016-01-01,Other federal government services [GS91100],285.0
+2016-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",54.0
+2016-01-01,Other municipal government services [GS91300],106.0
+2016-01-01,Other provincial and territorial government services [GS91200],38.0
+2016-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2016-01-01,Owner-occupied dwellings [BS5311A],0.0
+2016-01-01,Personal services and private households [BS81A00],12.0
+2016-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",3.0
+2016-01-01,Petroleum and coal product manufacturing [BS32400],8.0
+2016-01-01,Pharmaceutical and medicine manufacturing [BS32540],2.0
+2016-01-01,Pipeline transportation [BS48600],1.0
+2016-01-01,Plastic product manufacturing [BS32610],24.0
+2016-01-01,Postal service and couriers and messengers [BS49A00],43.0
+2016-01-01,Primary metal manufacturing [BS33100],0.0
+2016-01-01,Printing and related support activities [BS32300],4.0
+2016-01-01,Professional and similar organisations [BS81300],0.0
+2016-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",45.0
+2016-01-01,"Pulp, paper and paperboard mills [BS32210]",926.0
+2016-01-01,Radio and television broadcasting [BS51510],1.0
+2016-01-01,Rail transportation [BS48200],31.0
+2016-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2016-01-01,Religious organizations [NP81310],5.0
+2016-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],34.0
+2016-01-01,Repair and maintenance [BS81100],42.0
+2016-01-01,Repair and maintenance [FC11000],0.0
+2016-01-01,Repair construction [BS23D00],21.0
+2016-01-01,Residential building construction [BS23A00],46.0
+2016-01-01,Retail trade (except cannabis) [BS4AA00],233.0
+2016-01-01,Retail trade [BS4A000],0.0
+2016-01-01,Rubber product manufacturing [BS32620],40.0
+2016-01-01,Seafood product preparation and packaging [BS31170],43.0
+2016-01-01,Ship and boat building [BS33660],4.0
+2016-01-01,Soft drink and ice manufacturing [BS31211],2.0
+2016-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2016-01-01,Support activities for agriculture and forestry [BS11500],56.0
+2016-01-01,Support activities for mining and oil and gas extraction [BS21300],35.0
+2016-01-01,Textile and textile product mills [BS31A00],6.0
+2016-01-01,Tobacco manufacturing [BS31220],0.0
+2016-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",94.0
+2016-01-01,Transportation engineering construction [BS23C10],20.0
+2016-01-01,Transportation margins [FC30000],0.0
+2016-01-01,Truck transportation [BS48400],278.0
+2016-01-01,Universities [GS61130],33.0
+2016-01-01,Warehousing and storage [BS49300],4.0
+2016-01-01,Waste management and remediation services [BS56200],40.0
+2016-01-01,Water transportation [BS48300],234.0
+2016-01-01,Wholesale trade [BS41000],109.0
+2016-01-01,Wineries and distilleries [BS3121A],1.0
+2016-01-01,Wood product manufacturing [BS32100],176.0
+2017-01-01,Accommodation and food services [BS72000],55.0
+2017-01-01,Administrative and support services [BS56100],56.0
+2017-01-01,"Advertising, promotion, meals, entertainment, and travel [FC20000]",0.0
+2017-01-01,"Advertising, public relations and related services [BS54180]",2.0
+2017-01-01,Aerospace product and parts manufacturing [BS33640],11.0
+2017-01-01,Air transportation [BS48100],235.0
+2017-01-01,Animal food manufacturing [BS31110],5.0
+2017-01-01,"Arts, entertainment and recreation [BS71000]",1.0
+2017-01-01,Balancing item: Aviation,-141.0
+2017-01-01,Balancing item: Biomass,-1782.0
+2017-01-01,Balancing item: Motor fuels,-329.0
+2017-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,18.0
+2017-01-01,Balancing item: Other differences,582.0
+2017-01-01,Balancing item: Synthetic fluorinated gases,312.0
+2017-01-01,Balancing item: Waste,519.0
+2017-01-01,Basic chemical manufacturing [BS32510],4.0
+2017-01-01,Breweries [BS31212],6.0
+2017-01-01,Cannabis production (licensed) [BS111CL],2.0
+2017-01-01,Cannabis production (unlicensed) [BS111CU],4.0
+2017-01-01,Cannabis stores (licensed) [BS453BL],0.0
+2017-01-01,Cannabis stores (unlicensed) [BS453BU],1.0
+2017-01-01,Cement and concrete product manufacturing [BS32730],227.0
+2017-01-01,Clothing and leather and allied product manufacturing [BS31B00],2.0
+2017-01-01,Coal mining [BS21210],86.0
+2017-01-01,Communication engineering construction [BS23C40],5.0
+2017-01-01,Computer and peripheral equipment manufacturing [BS33410],0.0
+2017-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",12.0
+2017-01-01,Converted paper product manufacturing [BS32220],18.0
+2017-01-01,Crop and animal production (except cannabis) [BS11B00],485.0
+2017-01-01,Crop and animal production [BS11A00],0.0
+2017-01-01,Dairy product manufacturing [BS31150],6.0
+2017-01-01,Depository credit intermediation and monetary authorities [BS52B00],4.0
+2017-01-01,Educational services (except universities) [GS611B0],26.0
+2017-01-01,Educational services [BS61000],2.0
+2017-01-01,Electric power engineering construction [BS23C30],17.0
+2017-01-01,"Electric power generation, transmission and distribution [BS22110]",6462.0
+2017-01-01,Electrical  equipment and component manufacturing [BS335A0],1.0
+2017-01-01,Electronic product manufacturing [BS334B0],1.0
+2017-01-01,Fabricated metal product manufacturing [BS33200],13.0
+2017-01-01,"Fishing, hunting and trapping [BS11400]",311.0
+2017-01-01,Forestry and logging [BS11300],175.0
+2017-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],4.0
+2017-01-01,Furniture and related product manufacturing [BS33700],4.0
+2017-01-01,Health care and social assistance [BS62000],55.0
+2017-01-01,Hospitals [GS62200],14.0
+2017-01-01,Household appliance manufacturing [BS33520],0.0
+2017-01-01,Households: Electricity and other fuels,1879.0
+2017-01-01,Households: Motor fuels and lubricants,2688.0
+2017-01-01,Insurance carriers [BS52410],2.0
+2017-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",14.0
+2017-01-01,Lessors of real estate [BS53110],39.0
+2017-01-01,Machinery manufacturing [BS33300],2.0
+2017-01-01,Meat product manufacturing [BS31160],16.0
+2017-01-01,Metal ore mining [BS21220],2.0
+2017-01-01,Miscellaneous chemical product manufacturing [BS325C0],1.0
+2017-01-01,Miscellaneous food manufacturing [BS311A0],15.0
+2017-01-01,Miscellaneous manufacturing [BS33900],3.0
+2017-01-01,Miscellaneous non-profit institutions serving households [NPA0000],15.0
+2017-01-01,Motion picture and sound recording industries [BS51200],7.0
+2017-01-01,Motor vehicle body and trailer manufacturing [BS33620],0.0
+2017-01-01,Motor vehicle manufacturing [BS33610],0.0
+2017-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2017-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",3.0
+2017-01-01,Non-metallic mineral mining and quarrying [BS21230],25.0
+2017-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],9.0
+2017-01-01,"Non-profit arts, entertainment and recreation [NP71000]",1.0
+2017-01-01,Non-profit education services [NP61000],1.0
+2017-01-01,Non-profit social assistance [NP62400],1.0
+2017-01-01,Non-residential building construction [BS23B00],7.0
+2017-01-01,Nursing and residential care facilities [GS62300],3.0
+2017-01-01,Office supplies [FC13000],0.0
+2017-01-01,Oil and gas engineering construction [BS23C20],0.0
+2017-01-01,Oil and gas extraction [BS21100],306.0
+2017-01-01,Operating supplies [FC12000],0.0
+2017-01-01,Other Indigenous government services [GS91400],8.0
+2017-01-01,Other activities of the construction industry [BS23E00],16.0
+2017-01-01,Other engineering construction [BS23C50],3.0
+2017-01-01,Other federal government services [GS91100],296.0
+2017-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",49.0
+2017-01-01,Other municipal government services [GS91300],106.0
+2017-01-01,Other provincial and territorial government services [GS91200],68.0
+2017-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2017-01-01,Owner-occupied dwellings [BS5311A],0.0
+2017-01-01,Personal services and private households [BS81A00],12.0
+2017-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",4.0
+2017-01-01,Petroleum and coal product manufacturing [BS32400],7.0
+2017-01-01,Pharmaceutical and medicine manufacturing [BS32540],5.0
+2017-01-01,Pipeline transportation [BS48600],1.0
+2017-01-01,Plastic product manufacturing [BS32610],24.0
+2017-01-01,Postal service and couriers and messengers [BS49A00],36.0
+2017-01-01,Primary metal manufacturing [BS33100],0.0
+2017-01-01,Printing and related support activities [BS32300],5.0
+2017-01-01,Professional and similar organisations [BS81300],0.0
+2017-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",50.0
+2017-01-01,"Pulp, paper and paperboard mills [BS32210]",929.0
+2017-01-01,Radio and television broadcasting [BS51510],1.0
+2017-01-01,Rail transportation [BS48200],32.0
+2017-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2017-01-01,Religious organizations [NP81310],3.0
+2017-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],31.0
+2017-01-01,Repair and maintenance [BS81100],49.0
+2017-01-01,Repair and maintenance [FC11000],0.0
+2017-01-01,Repair construction [BS23D00],20.0
+2017-01-01,Residential building construction [BS23A00],43.0
+2017-01-01,Retail trade (except cannabis) [BS4AA00],279.0
+2017-01-01,Retail trade [BS4A000],0.0
+2017-01-01,Rubber product manufacturing [BS32620],44.0
+2017-01-01,Seafood product preparation and packaging [BS31170],38.0
+2017-01-01,Ship and boat building [BS33660],6.0
+2017-01-01,Soft drink and ice manufacturing [BS31211],1.0
+2017-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2017-01-01,Support activities for agriculture and forestry [BS11500],64.0
+2017-01-01,Support activities for mining and oil and gas extraction [BS21300],63.0
+2017-01-01,Textile and textile product mills [BS31A00],10.0
+2017-01-01,Tobacco manufacturing [BS31220],0.0
+2017-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",101.0
+2017-01-01,Transportation engineering construction [BS23C10],17.0
+2017-01-01,Transportation margins [FC30000],0.0
+2017-01-01,Truck transportation [BS48400],284.0
+2017-01-01,Universities [GS61130],33.0
+2017-01-01,Warehousing and storage [BS49300],4.0
+2017-01-01,Waste management and remediation services [BS56200],50.0
+2017-01-01,Water transportation [BS48300],254.0
+2017-01-01,Wholesale trade [BS41000],117.0
+2017-01-01,Wineries and distilleries [BS3121A],1.0
+2017-01-01,Wood product manufacturing [BS32100],187.0
+2018-01-01,Accommodation and food services [BS72000],57.0
+2018-01-01,Administrative and support services [BS56100],55.0
+2018-01-01,"Advertising, promotion, meals, entertainment, and travel [FC20000]",0.0
+2018-01-01,"Advertising, public relations and related services [BS54180]",2.0
+2018-01-01,Aerospace product and parts manufacturing [BS33640],6.0
+2018-01-01,Air transportation [BS48100],247.0
+2018-01-01,Animal food manufacturing [BS31110],7.0
+2018-01-01,"Arts, entertainment and recreation [BS71000]",1.0
+2018-01-01,Balancing item: Aviation,-139.0
+2018-01-01,Balancing item: Biomass,-1721.0
+2018-01-01,Balancing item: Motor fuels,-377.0
+2018-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,25.0
+2018-01-01,Balancing item: Other differences,623.0
+2018-01-01,Balancing item: Synthetic fluorinated gases,324.0
+2018-01-01,Balancing item: Waste,527.0
+2018-01-01,Basic chemical manufacturing [BS32510],3.0
+2018-01-01,Breweries [BS31212],8.0
+2018-01-01,Cannabis production (licensed) [BS111CL],8.0
+2018-01-01,Cannabis production (unlicensed) [BS111CU],3.0
+2018-01-01,Cannabis stores (licensed) [BS453BL],0.0
+2018-01-01,Cannabis stores (unlicensed) [BS453BU],1.0
+2018-01-01,Cement and concrete product manufacturing [BS32730],220.0
+2018-01-01,Clothing and leather and allied product manufacturing [BS31B00],3.0
+2018-01-01,Coal mining [BS21210],205.0
+2018-01-01,Communication engineering construction [BS23C40],7.0
+2018-01-01,Computer and peripheral equipment manufacturing [BS33410],0.0
+2018-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",13.0
+2018-01-01,Converted paper product manufacturing [BS32220],15.0
+2018-01-01,Crop and animal production (except cannabis) [BS11B00],484.0
+2018-01-01,Crop and animal production [BS11A00],0.0
+2018-01-01,Dairy product manufacturing [BS31150],9.0
+2018-01-01,Depository credit intermediation and monetary authorities [BS52B00],4.0
+2018-01-01,Educational services (except universities) [GS611B0],21.0
+2018-01-01,Educational services [BS61000],2.0
+2018-01-01,Electric power engineering construction [BS23C30],6.0
+2018-01-01,"Electric power generation, transmission and distribution [BS22110]",6769.0
+2018-01-01,Electrical  equipment and component manufacturing [BS335A0],5.0
+2018-01-01,Electronic product manufacturing [BS334B0],1.0
+2018-01-01,Fabricated metal product manufacturing [BS33200],31.0
+2018-01-01,"Fishing, hunting and trapping [BS11400]",325.0
+2018-01-01,Forestry and logging [BS11300],173.0
+2018-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],4.0
+2018-01-01,Furniture and related product manufacturing [BS33700],5.0
+2018-01-01,Health care and social assistance [BS62000],49.0
+2018-01-01,Hospitals [GS62200],11.0
+2018-01-01,Household appliance manufacturing [BS33520],0.0
+2018-01-01,Households: Electricity and other fuels,1953.0
+2018-01-01,Households: Motor fuels and lubricants,2763.0
+2018-01-01,Insurance carriers [BS52410],2.0
+2018-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",15.0
+2018-01-01,Lessors of real estate [BS53110],26.0
+2018-01-01,Machinery manufacturing [BS33300],3.0
+2018-01-01,Meat product manufacturing [BS31160],37.0
+2018-01-01,Metal ore mining [BS21220],10.0
+2018-01-01,Miscellaneous chemical product manufacturing [BS325C0],2.0
+2018-01-01,Miscellaneous food manufacturing [BS311A0],19.0
+2018-01-01,Miscellaneous manufacturing [BS33900],7.0
+2018-01-01,Miscellaneous non-profit institutions serving households [NPA0000],13.0
+2018-01-01,Motion picture and sound recording industries [BS51200],6.0
+2018-01-01,Motor vehicle body and trailer manufacturing [BS33620],1.0
+2018-01-01,Motor vehicle manufacturing [BS33610],0.0
+2018-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2018-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",7.0
+2018-01-01,Non-metallic mineral mining and quarrying [BS21230],26.0
+2018-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],11.0
+2018-01-01,"Non-profit arts, entertainment and recreation [NP71000]",1.0
+2018-01-01,Non-profit education services [NP61000],0.0
+2018-01-01,Non-profit social assistance [NP62400],1.0
+2018-01-01,Non-residential building construction [BS23B00],9.0
+2018-01-01,Nursing and residential care facilities [GS62300],2.0
+2018-01-01,Office supplies [FC13000],0.0
+2018-01-01,Oil and gas engineering construction [BS23C20],0.0
+2018-01-01,Oil and gas extraction [BS21100],218.0
+2018-01-01,Operating supplies [FC12000],0.0
+2018-01-01,Other Indigenous government services [GS91400],11.0
+2018-01-01,Other activities of the construction industry [BS23E00],19.0
+2018-01-01,Other engineering construction [BS23C50],2.0
+2018-01-01,Other federal government services [GS91100],299.0
+2018-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",45.0
+2018-01-01,Other municipal government services [GS91300],106.0
+2018-01-01,Other provincial and territorial government services [GS91200],65.0
+2018-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2018-01-01,Owner-occupied dwellings [BS5311A],0.0
+2018-01-01,Personal services and private households [BS81A00],10.0
+2018-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",5.0
+2018-01-01,Petroleum and coal product manufacturing [BS32400],11.0
+2018-01-01,Pharmaceutical and medicine manufacturing [BS32540],2.0
+2018-01-01,Pipeline transportation [BS48600],1.0
+2018-01-01,Plastic product manufacturing [BS32610],41.0
+2018-01-01,Postal service and couriers and messengers [BS49A00],36.0
+2018-01-01,Primary metal manufacturing [BS33100],0.0
+2018-01-01,Printing and related support activities [BS32300],2.0
+2018-01-01,Professional and similar organisations [BS81300],0.0
+2018-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",33.0
+2018-01-01,"Pulp, paper and paperboard mills [BS32210]",918.0
+2018-01-01,Radio and television broadcasting [BS51510],0.0
+2018-01-01,Rail transportation [BS48200],31.0
+2018-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2018-01-01,Religious organizations [NP81310],3.0
+2018-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],32.0
+2018-01-01,Repair and maintenance [BS81100],58.0
+2018-01-01,Repair and maintenance [FC11000],0.0
+2018-01-01,Repair construction [BS23D00],25.0
+2018-01-01,Residential building construction [BS23A00],54.0
+2018-01-01,Retail trade (except cannabis) [BS4AA00],306.0
+2018-01-01,Retail trade [BS4A000],0.0
+2018-01-01,Rubber product manufacturing [BS32620],80.0
+2018-01-01,Seafood product preparation and packaging [BS31170],42.0
+2018-01-01,Ship and boat building [BS33660],8.0
+2018-01-01,Soft drink and ice manufacturing [BS31211],3.0
+2018-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2018-01-01,Support activities for agriculture and forestry [BS11500],64.0
+2018-01-01,Support activities for mining and oil and gas extraction [BS21300],41.0
+2018-01-01,Textile and textile product mills [BS31A00],4.0
+2018-01-01,Tobacco manufacturing [BS31220],0.0
+2018-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",82.0
+2018-01-01,Transportation engineering construction [BS23C10],16.0
+2018-01-01,Transportation margins [FC30000],0.0
+2018-01-01,Truck transportation [BS48400],285.0
+2018-01-01,Universities [GS61130],37.0
+2018-01-01,Warehousing and storage [BS49300],5.0
+2018-01-01,Waste management and remediation services [BS56200],60.0
+2018-01-01,Water transportation [BS48300],281.0
+2018-01-01,Wholesale trade [BS41000],122.0
+2018-01-01,Wineries and distilleries [BS3121A],2.0
+2018-01-01,Wood product manufacturing [BS32100],146.0
+2019-01-01,Accommodation and food services [BS72000],56.0
+2019-01-01,Administrative and support services [BS56100],48.0
+2019-01-01,"Advertising, promotion, meals, entertainment, and travel [FC20000]",0.0
+2019-01-01,"Advertising, public relations and related services [BS54180]",2.0
+2019-01-01,Aerospace product and parts manufacturing [BS33640],7.0
+2019-01-01,Air transportation [BS48100],263.0
+2019-01-01,Animal food manufacturing [BS31110],9.0
+2019-01-01,"Arts, entertainment and recreation [BS71000]",1.0
+2019-01-01,Balancing item: Aviation,-160.0
+2019-01-01,Balancing item: Biomass,-1504.0
+2019-01-01,Balancing item: Motor fuels,-390.0
+2019-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,23.0
+2019-01-01,Balancing item: Other differences,522.0
+2019-01-01,Balancing item: Synthetic fluorinated gases,301.0
+2019-01-01,Balancing item: Waste,551.0
+2019-01-01,Basic chemical manufacturing [BS32510],7.0
+2019-01-01,Breweries [BS31212],11.0
+2019-01-01,Cannabis production (licensed) [BS111CL],7.0
+2019-01-01,Cannabis production (unlicensed) [BS111CU],2.0
+2019-01-01,Cannabis stores (licensed) [BS453BL],1.0
+2019-01-01,Cannabis stores (unlicensed) [BS453BU],1.0
+2019-01-01,Cement and concrete product manufacturing [BS32730],170.0
+2019-01-01,Clothing and leather and allied product manufacturing [BS31B00],3.0
+2019-01-01,Coal mining [BS21210],204.0
+2019-01-01,Communication engineering construction [BS23C40],4.0
+2019-01-01,Computer and peripheral equipment manufacturing [BS33410],0.0
+2019-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",13.0
+2019-01-01,Converted paper product manufacturing [BS32220],14.0
+2019-01-01,Crop and animal production (except cannabis) [BS11B00],448.0
+2019-01-01,Crop and animal production [BS11A00],0.0
+2019-01-01,Dairy product manufacturing [BS31150],10.0
+2019-01-01,Depository credit intermediation and monetary authorities [BS52B00],4.0
+2019-01-01,Educational services (except universities) [GS611B0],21.0
+2019-01-01,Educational services [BS61000],1.0
+2019-01-01,Electric power engineering construction [BS23C30],5.0
+2019-01-01,"Electric power generation, transmission and distribution [BS22110]",6510.0
+2019-01-01,Electrical  equipment and component manufacturing [BS335A0],7.0
+2019-01-01,Electronic product manufacturing [BS334B0],2.0
+2019-01-01,Fabricated metal product manufacturing [BS33200],36.0
+2019-01-01,"Fishing, hunting and trapping [BS11400]",349.0
+2019-01-01,Forestry and logging [BS11300],141.0
+2019-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],5.0
+2019-01-01,Furniture and related product manufacturing [BS33700],5.0
+2019-01-01,Health care and social assistance [BS62000],44.0
+2019-01-01,Hospitals [GS62200],11.0
+2019-01-01,Household appliance manufacturing [BS33520],0.0
+2019-01-01,Households: Electricity and other fuels,1852.0
+2019-01-01,Households: Motor fuels and lubricants,2748.0
+2019-01-01,Insurance carriers [BS52410],2.0
+2019-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",15.0
+2019-01-01,Lessors of real estate [BS53110],28.0
+2019-01-01,Machinery manufacturing [BS33300],4.0
+2019-01-01,Meat product manufacturing [BS31160],31.0
+2019-01-01,Metal ore mining [BS21220],12.0
+2019-01-01,Miscellaneous chemical product manufacturing [BS325C0],2.0
+2019-01-01,Miscellaneous food manufacturing [BS311A0],19.0
+2019-01-01,Miscellaneous manufacturing [BS33900],7.0
+2019-01-01,Miscellaneous non-profit institutions serving households [NPA0000],14.0
+2019-01-01,Motion picture and sound recording industries [BS51200],6.0
+2019-01-01,Motor vehicle body and trailer manufacturing [BS33620],0.0
+2019-01-01,Motor vehicle manufacturing [BS33610],0.0
+2019-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2019-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",8.0
+2019-01-01,Non-metallic mineral mining and quarrying [BS21230],28.0
+2019-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],8.0
+2019-01-01,"Non-profit arts, entertainment and recreation [NP71000]",1.0
+2019-01-01,Non-profit education services [NP61000],0.0
+2019-01-01,Non-profit social assistance [NP62400],1.0
+2019-01-01,Non-residential building construction [BS23B00],8.0
+2019-01-01,Nursing and residential care facilities [GS62300],2.0
+2019-01-01,Office supplies [FC13000],0.0
+2019-01-01,Oil and gas engineering construction [BS23C20],0.0
+2019-01-01,Oil and gas extraction [BS21100],13.0
+2019-01-01,Operating supplies [FC12000],0.0
+2019-01-01,Other Indigenous government services [GS91400],8.0
+2019-01-01,Other activities of the construction industry [BS23E00],18.0
+2019-01-01,Other engineering construction [BS23C50],2.0
+2019-01-01,Other federal government services [GS91100],286.0
+2019-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",46.0
+2019-01-01,Other municipal government services [GS91300],105.0
+2019-01-01,Other provincial and territorial government services [GS91200],61.0
+2019-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2019-01-01,Owner-occupied dwellings [BS5311A],0.0
+2019-01-01,Personal services and private households [BS81A00],9.0
+2019-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",5.0
+2019-01-01,Petroleum and coal product manufacturing [BS32400],7.0
+2019-01-01,Pharmaceutical and medicine manufacturing [BS32540],3.0
+2019-01-01,Pipeline transportation [BS48600],2.0
+2019-01-01,Plastic product manufacturing [BS32610],28.0
+2019-01-01,Postal service and couriers and messengers [BS49A00],34.0
+2019-01-01,Primary metal manufacturing [BS33100],0.0
+2019-01-01,Printing and related support activities [BS32300],2.0
+2019-01-01,Professional and similar organisations [BS81300],0.0
+2019-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",21.0
+2019-01-01,"Pulp, paper and paperboard mills [BS32210]",819.0
+2019-01-01,Radio and television broadcasting [BS51510],0.0
+2019-01-01,Rail transportation [BS48200],25.0
+2019-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2019-01-01,Religious organizations [NP81310],3.0
+2019-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],27.0
+2019-01-01,Repair and maintenance [BS81100],57.0
+2019-01-01,Repair and maintenance [FC11000],0.0
+2019-01-01,Repair construction [BS23D00],20.0
+2019-01-01,Residential building construction [BS23A00],52.0
+2019-01-01,Retail trade (except cannabis) [BS4AA00],298.0
+2019-01-01,Retail trade [BS4A000],0.0
+2019-01-01,Rubber product manufacturing [BS32620],70.0
+2019-01-01,Seafood product preparation and packaging [BS31170],47.0
+2019-01-01,Ship and boat building [BS33660],9.0
+2019-01-01,Soft drink and ice manufacturing [BS31211],2.0
+2019-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2019-01-01,Support activities for agriculture and forestry [BS11500],66.0
+2019-01-01,Support activities for mining and oil and gas extraction [BS21300],52.0
+2019-01-01,Textile and textile product mills [BS31A00],3.0
+2019-01-01,Tobacco manufacturing [BS31220],0.0
+2019-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",85.0
+2019-01-01,Transportation engineering construction [BS23C10],17.0
+2019-01-01,Transportation margins [FC30000],0.0
+2019-01-01,Truck transportation [BS48400],265.0
+2019-01-01,Universities [GS61130],34.0
+2019-01-01,Warehousing and storage [BS49300],5.0
+2019-01-01,Waste management and remediation services [BS56200],54.0
+2019-01-01,Water transportation [BS48300],302.0
+2019-01-01,Wholesale trade [BS41000],112.0
+2019-01-01,Wineries and distilleries [BS3121A],2.0
+2019-01-01,Wood product manufacturing [BS32100],143.0
+2020-01-01,Accommodation and food services [BS72000],53.0
+2020-01-01,Administrative and support services [BS56100],43.0
+2020-01-01,"Advertising, promotion, meals, entertainment, and travel [FC20000]",0.0
+2020-01-01,"Advertising, public relations and related services [BS54180]",1.0
+2020-01-01,Aerospace product and parts manufacturing [BS33640],14.0
+2020-01-01,Air transportation [BS48100],144.0
+2020-01-01,Animal food manufacturing [BS31110],4.0
+2020-01-01,"Arts, entertainment and recreation [BS71000]",1.0
+2020-01-01,Balancing item: Aviation,-142.0
+2020-01-01,Balancing item: Biomass,-586.0
+2020-01-01,Balancing item: Motor fuels,-290.0
+2020-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,24.0
+2020-01-01,Balancing item: Other differences,441.0
+2020-01-01,Balancing item: Synthetic fluorinated gases,294.0
+2020-01-01,Balancing item: Waste,571.0
+2020-01-01,Basic chemical manufacturing [BS32510],28.0
+2020-01-01,Breweries [BS31212],7.0
+2020-01-01,Cannabis production (licensed) [BS111CL],21.0
+2020-01-01,Cannabis production (unlicensed) [BS111CU],2.0
+2020-01-01,Cannabis stores (licensed) [BS453BL],2.0
+2020-01-01,Cannabis stores (unlicensed) [BS453BU],1.0
+2020-01-01,Cement and concrete product manufacturing [BS32730],192.0
+2020-01-01,Clothing and leather and allied product manufacturing [BS31B00],1.0
+2020-01-01,Coal mining [BS21210],140.0
+2020-01-01,Communication engineering construction [BS23C40],6.0
+2020-01-01,Computer and peripheral equipment manufacturing [BS33410],0.0
+2020-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",10.0
+2020-01-01,Converted paper product manufacturing [BS32220],15.0
+2020-01-01,Crop and animal production (except cannabis) [BS11B00],474.0
+2020-01-01,Crop and animal production [BS11A00],0.0
+2020-01-01,Dairy product manufacturing [BS31150],7.0
+2020-01-01,Depository credit intermediation and monetary authorities [BS52B00],3.0
+2020-01-01,Educational services (except universities) [GS611B0],24.0
+2020-01-01,Educational services [BS61000],2.0
+2020-01-01,Electric power engineering construction [BS23C30],3.0
+2020-01-01,"Electric power generation, transmission and distribution [BS22110]",6142.0
+2020-01-01,Electrical  equipment and component manufacturing [BS335A0],1.0
+2020-01-01,Electronic product manufacturing [BS334B0],1.0
+2020-01-01,Fabricated metal product manufacturing [BS33200],13.0
+2020-01-01,"Fishing, hunting and trapping [BS11400]",320.0
+2020-01-01,Forestry and logging [BS11300],89.0
+2020-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],6.0
+2020-01-01,Furniture and related product manufacturing [BS33700],2.0
+2020-01-01,Health care and social assistance [BS62000],48.0
+2020-01-01,Hospitals [GS62200],9.0
+2020-01-01,Household appliance manufacturing [BS33520],0.0
+2020-01-01,Households: Electricity and other fuels,1633.0
+2020-01-01,Households: Motor fuels and lubricants,2218.0
+2020-01-01,Insurance carriers [BS52410],1.0
+2020-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",11.0
+2020-01-01,Lessors of real estate [BS53110],36.0
+2020-01-01,Machinery manufacturing [BS33300],3.0
+2020-01-01,Meat product manufacturing [BS31160],6.0
+2020-01-01,Metal ore mining [BS21220],12.0
+2020-01-01,Miscellaneous chemical product manufacturing [BS325C0],2.0
+2020-01-01,Miscellaneous food manufacturing [BS311A0],15.0
+2020-01-01,Miscellaneous manufacturing [BS33900],3.0
+2020-01-01,Miscellaneous non-profit institutions serving households [NPA0000],16.0
+2020-01-01,Motion picture and sound recording industries [BS51200],7.0
+2020-01-01,Motor vehicle body and trailer manufacturing [BS33620],0.0
+2020-01-01,Motor vehicle manufacturing [BS33610],1.0
+2020-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2020-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",4.0
+2020-01-01,Non-metallic mineral mining and quarrying [BS21230],26.0
+2020-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],7.0
+2020-01-01,"Non-profit arts, entertainment and recreation [NP71000]",1.0
+2020-01-01,Non-profit education services [NP61000],1.0
+2020-01-01,Non-profit social assistance [NP62400],2.0
+2020-01-01,Non-residential building construction [BS23B00],6.0
+2020-01-01,Nursing and residential care facilities [GS62300],3.0
+2020-01-01,Office supplies [FC13000],0.0
+2020-01-01,Oil and gas engineering construction [BS23C20],1.0
+2020-01-01,Oil and gas extraction [BS21100],10.0
+2020-01-01,Operating supplies [FC12000],0.0
+2020-01-01,Other Indigenous government services [GS91400],11.0
+2020-01-01,Other activities of the construction industry [BS23E00],15.0
+2020-01-01,Other engineering construction [BS23C50],2.0
+2020-01-01,Other federal government services [GS91100],230.0
+2020-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",71.0
+2020-01-01,Other municipal government services [GS91300],132.0
+2020-01-01,Other provincial and territorial government services [GS91200],122.0
+2020-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2020-01-01,Owner-occupied dwellings [BS5311A],0.0
+2020-01-01,Personal services and private households [BS81A00],9.0
+2020-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",5.0
+2020-01-01,Petroleum and coal product manufacturing [BS32400],6.0
+2020-01-01,Pharmaceutical and medicine manufacturing [BS32540],4.0
+2020-01-01,Pipeline transportation [BS48600],2.0
+2020-01-01,Plastic product manufacturing [BS32610],13.0
+2020-01-01,Postal service and couriers and messengers [BS49A00],46.0
+2020-01-01,Primary metal manufacturing [BS33100],0.0
+2020-01-01,Printing and related support activities [BS32300],1.0
+2020-01-01,Professional and similar organisations [BS81300],0.0
+2020-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",12.0
+2020-01-01,"Pulp, paper and paperboard mills [BS32210]",1.0
+2020-01-01,Radio and television broadcasting [BS51510],1.0
+2020-01-01,Rail transportation [BS48200],21.0
+2020-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2020-01-01,Religious organizations [NP81310],5.0
+2020-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],24.0
+2020-01-01,Repair and maintenance [BS81100],66.0
+2020-01-01,Repair and maintenance [FC11000],0.0
+2020-01-01,Repair construction [BS23D00],18.0
+2020-01-01,Residential building construction [BS23A00],57.0
+2020-01-01,Retail trade (except cannabis) [BS4AA00],251.0
+2020-01-01,Retail trade [BS4A000],0.0
+2020-01-01,Rubber product manufacturing [BS32620],31.0
+2020-01-01,Seafood product preparation and packaging [BS31170],30.0
+2020-01-01,Ship and boat building [BS33660],9.0
+2020-01-01,Soft drink and ice manufacturing [BS31211],1.0
+2020-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2020-01-01,Support activities for agriculture and forestry [BS11500],37.0
+2020-01-01,Support activities for mining and oil and gas extraction [BS21300],50.0
+2020-01-01,Textile and textile product mills [BS31A00],1.0
+2020-01-01,Tobacco manufacturing [BS31220],0.0
+2020-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",82.0
+2020-01-01,Transportation engineering construction [BS23C10],19.0
+2020-01-01,Transportation margins [FC30000],0.0
+2020-01-01,Truck transportation [BS48400],248.0
+2020-01-01,Universities [GS61130],26.0
+2020-01-01,Warehousing and storage [BS49300],5.0
+2020-01-01,Waste management and remediation services [BS56200],54.0
+2020-01-01,Water transportation [BS48300],268.0
+2020-01-01,Wholesale trade [BS41000],110.0
+2020-01-01,Wineries and distilleries [BS3121A],2.0
+2020-01-01,Wood product manufacturing [BS32100],128.0
+2021-01-01,Accommodation and food services [BS72000],56.0
+2021-01-01,Administrative and support services [BS56100],46.0
+2021-01-01,"Advertising, promotion, meals, entertainment, and travel [FC20000]",0.0
+2021-01-01,"Advertising, public relations and related services [BS54180]",1.0
+2021-01-01,Aerospace product and parts manufacturing [BS33640],16.0
+2021-01-01,Air transportation [BS48100],139.0
+2021-01-01,Animal food manufacturing [BS31110],3.0
+2021-01-01,"Arts, entertainment and recreation [BS71000]",1.0
+2021-01-01,Balancing item: Aviation,-95.0
+2021-01-01,Balancing item: Biomass,-500.0
+2021-01-01,Balancing item: Motor fuels,-214.0
+2021-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,15.0
+2021-01-01,Balancing item: Other differences,312.0
+2021-01-01,Balancing item: Synthetic fluorinated gases,284.0
+2021-01-01,Balancing item: Waste,584.0
+2021-01-01,Basic chemical manufacturing [BS32510],32.0
+2021-01-01,Breweries [BS31212],7.0
+2021-01-01,Cannabis production (licensed) [BS111CL],13.0
+2021-01-01,Cannabis production (unlicensed) [BS111CU],3.0
+2021-01-01,Cannabis stores (licensed) [BS453BL],2.0
+2021-01-01,Cannabis stores (unlicensed) [BS453BU],0.0
+2021-01-01,Cement and concrete product manufacturing [BS32730],241.0
+2021-01-01,Clothing and leather and allied product manufacturing [BS31B00],1.0
+2021-01-01,Coal mining [BS21210],51.0
+2021-01-01,Communication engineering construction [BS23C40],6.0
+2021-01-01,Computer and peripheral equipment manufacturing [BS33410],0.0
+2021-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",10.0
+2021-01-01,Converted paper product manufacturing [BS32220],16.0
+2021-01-01,Crop and animal production (except cannabis) [BS11B00],498.0
+2021-01-01,Crop and animal production [BS11A00],0.0
+2021-01-01,Dairy product manufacturing [BS31150],8.0
+2021-01-01,Depository credit intermediation and monetary authorities [BS52B00],3.0
+2021-01-01,Educational services (except universities) [GS611B0],41.0
+2021-01-01,Educational services [BS61000],2.0
+2021-01-01,Electric power engineering construction [BS23C30],4.0
+2021-01-01,"Electric power generation, transmission and distribution [BS22110]",5982.0
+2021-01-01,Electrical  equipment and component manufacturing [BS335A0],2.0
+2021-01-01,Electronic product manufacturing [BS334B0],2.0
+2021-01-01,Fabricated metal product manufacturing [BS33200],11.0
+2021-01-01,"Fishing, hunting and trapping [BS11400]",340.0
+2021-01-01,Forestry and logging [BS11300],99.0
+2021-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],9.0
+2021-01-01,Furniture and related product manufacturing [BS33700],2.0
+2021-01-01,Health care and social assistance [BS62000],54.0
+2021-01-01,Hospitals [GS62200],10.0
+2021-01-01,Household appliance manufacturing [BS33520],0.0
+2021-01-01,Households: Electricity and other fuels,1419.0
+2021-01-01,Households: Motor fuels and lubricants,2357.0
+2021-01-01,Insurance carriers [BS52410],0.0
+2021-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",11.0
+2021-01-01,Lessors of real estate [BS53110],40.0
+2021-01-01,Machinery manufacturing [BS33300],3.0
+2021-01-01,Meat product manufacturing [BS31160],9.0
+2021-01-01,Metal ore mining [BS21220],4.0
+2021-01-01,Miscellaneous chemical product manufacturing [BS325C0],2.0
+2021-01-01,Miscellaneous food manufacturing [BS311A0],16.0
+2021-01-01,Miscellaneous manufacturing [BS33900],2.0
+2021-01-01,Miscellaneous non-profit institutions serving households [NPA0000],11.0
+2021-01-01,Motion picture and sound recording industries [BS51200],8.0
+2021-01-01,Motor vehicle body and trailer manufacturing [BS33620],0.0
+2021-01-01,Motor vehicle manufacturing [BS33610],1.0
+2021-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2021-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",3.0
+2021-01-01,Non-metallic mineral mining and quarrying [BS21230],28.0
+2021-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],8.0
+2021-01-01,"Non-profit arts, entertainment and recreation [NP71000]",0.0
+2021-01-01,Non-profit education services [NP61000],1.0
+2021-01-01,Non-profit social assistance [NP62400],1.0
+2021-01-01,Non-residential building construction [BS23B00],8.0
+2021-01-01,Nursing and residential care facilities [GS62300],4.0
+2021-01-01,Office supplies [FC13000],0.0
+2021-01-01,Oil and gas engineering construction [BS23C20],0.0
+2021-01-01,Oil and gas extraction [BS21100],11.0
+2021-01-01,Operating supplies [FC12000],0.0
+2021-01-01,Other Indigenous government services [GS91400],16.0
+2021-01-01,Other activities of the construction industry [BS23E00],15.0
+2021-01-01,Other engineering construction [BS23C50],4.0
+2021-01-01,Other federal government services [GS91100],218.0
+2021-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",52.0
+2021-01-01,Other municipal government services [GS91300],128.0
+2021-01-01,Other provincial and territorial government services [GS91200],138.0
+2021-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2021-01-01,Owner-occupied dwellings [BS5311A],0.0
+2021-01-01,Personal services and private households [BS81A00],10.0
+2021-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",4.0
+2021-01-01,Petroleum and coal product manufacturing [BS32400],6.0
+2021-01-01,Pharmaceutical and medicine manufacturing [BS32540],5.0
+2021-01-01,Pipeline transportation [BS48600],2.0
+2021-01-01,Plastic product manufacturing [BS32610],15.0
+2021-01-01,Postal service and couriers and messengers [BS49A00],45.0
+2021-01-01,Primary metal manufacturing [BS33100],0.0
+2021-01-01,Printing and related support activities [BS32300],1.0
+2021-01-01,Professional and similar organisations [BS81300],0.0
+2021-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",4.0
+2021-01-01,"Pulp, paper and paperboard mills [BS32210]",1.0
+2021-01-01,Radio and television broadcasting [BS51510],1.0
+2021-01-01,Rail transportation [BS48200],22.0
+2021-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2021-01-01,Religious organizations [NP81310],3.0
+2021-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],25.0
+2021-01-01,Repair and maintenance [BS81100],69.0
+2021-01-01,Repair and maintenance [FC11000],0.0
+2021-01-01,Repair construction [BS23D00],20.0
+2021-01-01,Residential building construction [BS23A00],70.0
+2021-01-01,Retail trade (except cannabis) [BS4AA00],234.0
+2021-01-01,Retail trade [BS4A000],0.0
+2021-01-01,Rubber product manufacturing [BS32620],40.0
+2021-01-01,Seafood product preparation and packaging [BS31170],34.0
+2021-01-01,Ship and boat building [BS33660],11.0
+2021-01-01,Soft drink and ice manufacturing [BS31211],1.0
+2021-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2021-01-01,Support activities for agriculture and forestry [BS11500],31.0
+2021-01-01,Support activities for mining and oil and gas extraction [BS21300],53.0
+2021-01-01,Textile and textile product mills [BS31A00],1.0
+2021-01-01,Tobacco manufacturing [BS31220],0.0
+2021-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",87.0
+2021-01-01,Transportation engineering construction [BS23C10],22.0
+2021-01-01,Transportation margins [FC30000],0.0
+2021-01-01,Truck transportation [BS48400],256.0
+2021-01-01,Universities [GS61130],37.0
+2021-01-01,Warehousing and storage [BS49300],3.0
+2021-01-01,Waste management and remediation services [BS56200],51.0
+2021-01-01,Water transportation [BS48300],220.0
+2021-01-01,Wholesale trade [BS41000],110.0
+2021-01-01,Wineries and distilleries [BS3121A],2.0
+2021-01-01,Wood product manufacturing [BS32100],138.0
+2022-01-01,Accommodation and food services [BS72000],57.0
+2022-01-01,Administrative and support services [BS56100],49.0
+2022-01-01,"Advertising, promotion, meals, entertainment, and travel [FC20000]",0.0
+2022-01-01,"Advertising, public relations and related services [BS54180]",1.0
+2022-01-01,Aerospace product and parts manufacturing [BS33640],15.0
+2022-01-01,Air transportation [BS48100],231.0
+2022-01-01,Animal food manufacturing [BS31110],3.0
+2022-01-01,"Arts, entertainment and recreation [BS71000]",1.0
+2022-01-01,Balancing item: Aviation,-138.0
+2022-01-01,Balancing item: Biomass,-427.0
+2022-01-01,Balancing item: Motor fuels,-198.0
+2022-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,23.0
+2022-01-01,Balancing item: Other differences,420.0
+2022-01-01,Balancing item: Synthetic fluorinated gases,279.0
+2022-01-01,Balancing item: Waste,593.0
+2022-01-01,Basic chemical manufacturing [BS32510],36.0
+2022-01-01,Breweries [BS31212],12.0
+2022-01-01,Cannabis production (licensed) [BS111CL],15.0
+2022-01-01,Cannabis production (unlicensed) [BS111CU],3.0
+2022-01-01,Cannabis retailers (licensed) [BS459BL],2.0
+2022-01-01,Cannabis retailers (unlicensed) [BS459BU],0.0
+2022-01-01,Cannabis stores (licensed) [BS453BL],0.0
+2022-01-01,Cannabis stores (unlicensed) [BS453BU],0.0
+2022-01-01,Cement and concrete product manufacturing [BS32730],233.0
+2022-01-01,Clothing and leather and allied product manufacturing [BS31B00],1.0
+2022-01-01,Coal mining [BS21210],58.0
+2022-01-01,Communication engineering construction [BS23C40],6.0
+2022-01-01,Computer and electronic product manufacturing [BS33400],1.0
+2022-01-01,Computer and peripheral equipment manufacturing [BS33410],0.0
+2022-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",10.0
+2022-01-01,Converted paper product manufacturing [BS32220],15.0
+2022-01-01,Crop and animal production (except cannabis) [BS11B00],500.0
+2022-01-01,Crop and animal production [BS11A00],0.0
+2022-01-01,Dairy product manufacturing [BS31150],15.0
+2022-01-01,Depository credit intermediation and monetary authorities [BS52B00],3.0
+2022-01-01,Educational services (except universities) [GS611B0],42.0
+2022-01-01,Educational services [BS61000],2.0
+2022-01-01,Electric power engineering construction [BS23C30],6.0
+2022-01-01,"Electric power generation, transmission and distribution [BS22110]",5636.0
+2022-01-01,Electrical  equipment and component manufacturing [BS335A0],0.0
+2022-01-01,"Electrical equipment, appliance and component manufacturing [BS33500]",1.0
+2022-01-01,Electronic product manufacturing [BS334B0],0.0
+2022-01-01,Fabricated metal product manufacturing [BS33200],9.0
+2022-01-01,"Fishing, hunting and trapping [BS11400]",330.0
+2022-01-01,Forestry and logging [BS11300],78.0
+2022-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],10.0
+2022-01-01,Furniture and related product manufacturing [BS33700],2.0
+2022-01-01,Health care and social assistance (except nursing and residential care facilities) [GS62B00],10.0
+2022-01-01,Health care and social assistance [BS62000],58.0
+2022-01-01,Hospitals [GS62200],0.0
+2022-01-01,Household appliance manufacturing [BS33520],0.0
+2022-01-01,Households: Electricity and other fuels,1457.0
+2022-01-01,Households: Motor fuels and lubricants,2457.0
+2022-01-01,Insurance carriers [BS52410],0.0
+2022-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",10.0
+2022-01-01,Lessors of real estate [BS53110],42.0
+2022-01-01,Machinery manufacturing [BS33300],3.0
+2022-01-01,Meat product manufacturing [BS31160],7.0
+2022-01-01,Metal ore mining [BS21220],3.0
+2022-01-01,Miscellaneous chemical product manufacturing [BS325C0],1.0
+2022-01-01,Miscellaneous food manufacturing [BS311A0],16.0
+2022-01-01,Miscellaneous manufacturing [BS33900],2.0
+2022-01-01,Miscellaneous non-profit institutions serving households [NPA0000],16.0
+2022-01-01,Motion picture and sound recording industries [BS51200],6.0
+2022-01-01,Motor vehicle body and trailer manufacturing [BS33620],0.0
+2022-01-01,Motor vehicle manufacturing [BS33610],1.0
+2022-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2022-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",3.0
+2022-01-01,Non-metallic mineral mining and quarrying [BS21230],37.0
+2022-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],7.0
+2022-01-01,"Non-profit arts, entertainment and recreation [NP71000]",0.0
+2022-01-01,Non-profit education services [NP61000],2.0
+2022-01-01,Non-profit social assistance [NP62400],1.0
+2022-01-01,Non-residential building construction [BS23B00],7.0
+2022-01-01,Nursing and residential care facilities [GS62300],4.0
+2022-01-01,Office supplies [FC13000],0.0
+2022-01-01,Oil and gas engineering construction [BS23C20],0.0
+2022-01-01,Oil and gas extraction [BS21100],11.0
+2022-01-01,Operating supplies [FC12000],0.0
+2022-01-01,Other Indigenous government services [GS91400],17.0
+2022-01-01,Other activities of the construction industry [BS23E00],14.0
+2022-01-01,Other engineering construction [BS23C50],4.0
+2022-01-01,Other federal government services [GS91100],298.0
+2022-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",42.0
+2022-01-01,Other municipal government services [GS91300],110.0
+2022-01-01,Other provincial and territorial government services [GS91200],165.0
+2022-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2022-01-01,Owner-occupied dwellings [BS5311A],0.0
+2022-01-01,Personal services and private households [BS81A00],12.0
+2022-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",3.0
+2022-01-01,Petroleum and coal product manufacturing [BS32400],10.0
+2022-01-01,Pharmaceutical and medicine manufacturing [BS32540],5.0
+2022-01-01,Pipeline transportation [BS48600],1.0
+2022-01-01,Plastic product manufacturing [BS32610],12.0
+2022-01-01,Postal service and couriers and messengers [BS49A00],53.0
+2022-01-01,Primary metal manufacturing [BS33100],0.0
+2022-01-01,Printing and related support activities [BS32300],1.0
+2022-01-01,Professional and similar organisations [BS81300],0.0
+2022-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",4.0
+2022-01-01,"Pulp, paper and paperboard mills [BS32210]",1.0
+2022-01-01,Radio and television broadcasting [BS51510],0.0
+2022-01-01,Radio and television broadcasting stations [BS51610],0.0
+2022-01-01,Rail transportation [BS48200],24.0
+2022-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2022-01-01,Religious organizations [NP81310],4.0
+2022-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],29.0
+2022-01-01,Repair and maintenance [BS81100],68.0
+2022-01-01,Repair and maintenance [FC11000],0.0
+2022-01-01,Repair construction [BS23D00],17.0
+2022-01-01,Residential building construction [BS23A00],68.0
+2022-01-01,Retail trade (except cannabis) [BS4AA00],207.0
+2022-01-01,Retail trade [BS4A000],0.0
+2022-01-01,Rubber product manufacturing [BS32620],23.0
+2022-01-01,Seafood product preparation and packaging [BS31170],27.0
+2022-01-01,Ship and boat building [BS33660],15.0
+2022-01-01,Soft drink and ice manufacturing [BS31211],1.0
+2022-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2022-01-01,Support activities for agriculture and forestry [BS11500],32.0
+2022-01-01,Support activities for mining and oil and gas extraction [BS21300],48.0
+2022-01-01,Textile and textile product mills [BS31A00],1.0
+2022-01-01,Tobacco and cannabis product manufacturing [BS312A0],0.0
+2022-01-01,Tobacco manufacturing [BS31220],0.0
+2022-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",91.0
+2022-01-01,Transportation engineering construction [BS23C10],23.0
+2022-01-01,Transportation margins [FC30000],0.0
+2022-01-01,Truck transportation [BS48400],249.0
+2022-01-01,Universities [GS61130],41.0
+2022-01-01,Warehousing and storage [BS49300],4.0
+2022-01-01,Waste management and remediation services [BS56200],45.0
+2022-01-01,Water transportation [BS48300],244.0
+2022-01-01,Wholesale trade [BS41000],98.0
+2022-01-01,Wineries and distilleries [BS3121A],2.0
+2022-01-01,Wood product manufacturing [BS32100],81.0
+2023-01-01,Accommodation and food services [BS72000],57.0
+2023-01-01,Administrative and support services [BS56100],49.0
+2023-01-01,"Advertising, public relations and related services [BS54180]",1.0
+2023-01-01,Aerospace product and parts manufacturing [BS33640],15.0
+2023-01-01,Air transportation [BS48100],262.0
+2023-01-01,Animal food manufacturing [BS31110],3.0
+2023-01-01,"Arts, entertainment and recreation [BS71000]",1.0
+2023-01-01,Balancing item: Aviation,-150.0
+2023-01-01,Balancing item: Biomass,-469.0
+2023-01-01,Balancing item: Motor fuels,-216.0
+2023-01-01,Balancing item: Non-energy Products from Fuels and Solvent Use,25.0
+2023-01-01,Balancing item: Other differences,479.0
+2023-01-01,Balancing item: Synthetic fluorinated gases,278.0
+2023-01-01,Balancing item: Waste,596.0
+2023-01-01,Basic chemical manufacturing [BS32510],38.0
+2023-01-01,Breweries [BS31212],12.0
+2023-01-01,Cannabis production (licensed) [BS111CL],15.0
+2023-01-01,Cannabis production (unlicensed) [BS111CU],3.0
+2023-01-01,Cannabis retailers (licensed) [BS459BL],2.0
+2023-01-01,Cannabis retailers (unlicensed) [BS459BU],0.0
+2023-01-01,Cement and concrete product manufacturing [BS32730],223.0
+2023-01-01,Clothing and leather and allied product manufacturing [BS31B00],1.0
+2023-01-01,Coal mining [BS21210],212.0
+2023-01-01,Communication engineering construction [BS23C40],5.0
+2023-01-01,Computer and electronic product manufacturing [BS33400],1.0
+2023-01-01,"Computer systems design and other professional, scientific and technical services [BS541D0]",10.0
+2023-01-01,Converted paper product manufacturing [BS32220],15.0
+2023-01-01,Crop and animal production (except cannabis) [BS11B00],501.0
+2023-01-01,Dairy product manufacturing [BS31150],15.0
+2023-01-01,Depository credit intermediation and monetary authorities [BS52B00],4.0
+2023-01-01,Educational services (except universities) [GS611B0],44.0
+2023-01-01,Educational services [BS61000],2.0
+2023-01-01,Electric power engineering construction [BS23C30],5.0
+2023-01-01,"Electric power generation, transmission and distribution [BS22110]",4728.0
+2023-01-01,"Electrical equipment, appliance and component manufacturing [BS33500]",1.0
+2023-01-01,Fabricated metal product manufacturing [BS33200],9.0
+2023-01-01,"Fishing, hunting and trapping [BS11400]",333.0
+2023-01-01,Forestry and logging [BS11300],78.0
+2023-01-01,Fruit and vegetable preserving and specialty food manufacturing [BS31140],10.0
+2023-01-01,Furniture and related product manufacturing [BS33700],2.0
+2023-01-01,Health care and social assistance (except nursing and residential care facilities) [GS62B00],11.0
+2023-01-01,Health care and social assistance [BS62000],57.0
+2023-01-01,Households: Electricity and other fuels,1284.0
+2023-01-01,Households: Motor fuels and lubricants,2589.0
+2023-01-01,Insurance carriers [BS52410],0.0
+2023-01-01,"Legal, accounting and architectural, engineering and related services [BS541C0]",10.0
+2023-01-01,Lessors of real estate [BS53110],42.0
+2023-01-01,Machinery manufacturing [BS33300],3.0
+2023-01-01,Meat product manufacturing [BS31160],7.0
+2023-01-01,Metal ore mining [BS21220],23.0
+2023-01-01,Miscellaneous chemical product manufacturing [BS325C0],1.0
+2023-01-01,Miscellaneous food manufacturing [BS311A0],15.0
+2023-01-01,Miscellaneous manufacturing [BS33900],2.0
+2023-01-01,Miscellaneous non-profit institutions serving households [NPA0000],17.0
+2023-01-01,Motion picture and sound recording industries [BS51200],7.0
+2023-01-01,Motor vehicle body and trailer manufacturing [BS33620],0.0
+2023-01-01,Motor vehicle manufacturing [BS33610],1.0
+2023-01-01,Motor vehicle parts manufacturing [BS33630],0.0
+2023-01-01,"Natural gas distribution, water, sewage and other systems [BS221A0]",3.0
+2023-01-01,Non-metallic mineral mining and quarrying [BS21230],36.0
+2023-01-01,Non-metallic mineral product manufacturing (except cement and concrete products) [BS327A0],7.0
+2023-01-01,"Non-profit arts, entertainment and recreation [NP71000]",0.0
+2023-01-01,Non-profit education services [NP61000],2.0
+2023-01-01,Non-profit social assistance [NP62400],1.0
+2023-01-01,Non-residential building construction [BS23B00],6.0
+2023-01-01,Nursing and residential care facilities [GS62300],4.0
+2023-01-01,Oil and gas engineering construction [BS23C20],0.0
+2023-01-01,Oil and gas extraction [BS21100],10.0
+2023-01-01,Other Indigenous government services [GS91400],18.0
+2023-01-01,Other activities of the construction industry [BS23E00],13.0
+2023-01-01,Other engineering construction [BS23C50],4.0
+2023-01-01,Other federal government services [GS91100],299.0
+2023-01-01,"Other finance, insurance and real estate services and management of companies and enterprises [BS5A000]",44.0
+2023-01-01,Other municipal government services [GS91300],111.0
+2023-01-01,Other provincial and territorial government services [GS91200],167.0
+2023-01-01,Other transportation equipment manufacturing [BS33690],0.0
+2023-01-01,Owner-occupied dwellings [BS5311A],0.0
+2023-01-01,Personal services and private households [BS81A00],12.0
+2023-01-01,"Pesticide, fertilizer and other agricultural chemical manufacturing [BS32530]",3.0
+2023-01-01,Petroleum and coal product manufacturing [BS32400],11.0
+2023-01-01,Pharmaceutical and medicine manufacturing [BS32540],5.0
+2023-01-01,Pipeline transportation [BS48600],1.0
+2023-01-01,Plastic product manufacturing [BS32610],12.0
+2023-01-01,Postal service and couriers and messengers [BS49A00],52.0
+2023-01-01,Primary metal manufacturing [BS33100],0.0
+2023-01-01,Printing and related support activities [BS32300],1.0
+2023-01-01,Professional and similar organisations [BS81300],0.0
+2023-01-01,"Publishing, pay/specialty services, telecommunications and other information services [BS51B00]",4.0
+2023-01-01,"Pulp, paper and paperboard mills [BS32210]",1.0
+2023-01-01,Radio and television broadcasting stations [BS51610],0.0
+2023-01-01,Rail transportation [BS48200],30.0
+2023-01-01,Railroad rolling stock manufacturing [BS33650],0.0
+2023-01-01,Religious organizations [NP81310],4.0
+2023-01-01,Rental and leasing services and lessors of non-financial intangible assets (except copyrighted works) [BS53B00],30.0
+2023-01-01,Repair and maintenance [BS81100],70.0
+2023-01-01,Repair construction [BS23D00],16.0
+2023-01-01,Residential building construction [BS23A00],63.0
+2023-01-01,Retail trade (except cannabis) [BS4AA00],209.0
+2023-01-01,Rubber product manufacturing [BS32620],24.0
+2023-01-01,Seafood product preparation and packaging [BS31170],27.0
+2023-01-01,Ship and boat building [BS33660],16.0
+2023-01-01,Soft drink and ice manufacturing [BS31211],1.0
+2023-01-01,Sugar and confectionery product manufacturing [BS31130],0.0
+2023-01-01,Support activities for agriculture and forestry [BS11500],31.0
+2023-01-01,Support activities for mining and oil and gas extraction [BS21300],36.0
+2023-01-01,Textile and textile product mills [BS31A00],1.0
+2023-01-01,Tobacco and cannabis product manufacturing [BS312A0],0.0
+2023-01-01,"Transit, ground passenger and scenic and sightseeing transportation, taxi and limousine service and support activities for transportation [BS48B00]",90.0
+2023-01-01,Transportation engineering construction [BS23C10],20.0
+2023-01-01,Truck transportation [BS48400],237.0
+2023-01-01,Universities [GS61130],42.0
+2023-01-01,Warehousing and storage [BS49300],4.0
+2023-01-01,Waste management and remediation services [BS56200],45.0
+2023-01-01,Water transportation [BS48300],242.0
+2023-01-01,Wholesale trade [BS41000],95.0
+2023-01-01,Wineries and distilleries [BS3121A],2.0
+2023-01-01,Wood product manufacturing [BS32100],108.0
