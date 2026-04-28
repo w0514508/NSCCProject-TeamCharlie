@@ -1,5 +1,4 @@
-Final data tables on GHG for data model are as below:
+Final data tables on GHG for data model:
 
-Dataset Name: Table 38-10-0097-01 for Greenhouse gas emissions by province and territory.
+Cleaned Greenhouse gas emissions Data by provinces and territories.
 
-Dataset Name: Table 38-10-0096-01 GHG emissions by economic sector.
