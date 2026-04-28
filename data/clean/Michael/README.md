@@ -2,5 +2,5 @@
 
 ## Cleaned Greenhouse gas emissions Data by provinces and territories covering from 2013 to 2023.
 
-* Source is from "Statistics Canada".*
+* Source is from "Statistics Canada".
 
