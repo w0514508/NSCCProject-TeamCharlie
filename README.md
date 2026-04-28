@@ -33,4 +33,4 @@ This project analyzes historical climate and environmental trends in Atlantic Ca
 
 - Air Quality Index (AQI)  
 **Owner:** Chisom Njoku  Until 1st May 2026
-**Owner:** Michael Okafor post 1st May 2026
+**Owner:** Yashaswi Tiwari post 1st May 2026
