@@ -18,3 +18,9 @@
   - NL : 1040 Files
   - PE : 208 Files
 
+# Assumption for taking AQI 24 hr running Average : 
+✅ Best for:
+
+Overall daily air quality
+PM₂₅ pollution assessment
+Long‑term trends and comparisons between cities
