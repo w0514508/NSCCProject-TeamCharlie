@@ -18,9 +18,13 @@
   - NL : 1040 Files
   - PE : 208 Files
 
-## Assumption for taking AQI 24 hr running Average : 
-✅ Best for:
+## 🇨🇦 Canada — Air Pollutant Averaging Times
 
-Overall daily air quality
-PM₂₅ pollution assessment
-Long‑term trends and comparisons between cities
+This table summarizes the recommended averaging periods used in **Canada**, aligned with
+the **Air Quality Health Index (AQHI)** and **Canadian Ambient Air Quality Standards (CAAQS)**.
+
+| Pollutant | AQHI Averaging Time | Regulatory / Reporting Averaging Time | Notes |
+|----------|--------------------|----------------------------------------|-------|
+| PM₂.₅ | **3‑hour rolling average** | **24‑hour average**, Annual average | Core AQHI pollutant; cumulative exposure important |
+| PM₁₀ | — | **24‑hour average** | Not part of AQHI; limited health indexing use |
+
