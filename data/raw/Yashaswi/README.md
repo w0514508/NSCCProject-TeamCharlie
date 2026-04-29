@@ -1,6 +1,6 @@
 ## Final Temperature Data tables for data model
 ---
-# Data is downloaded from https://dd.weather.gc.ca/today/climate/observations/daily/csv/
+## Data is downloaded from https://dd.weather.gc.ca/today/climate/observations/daily/csv/
   - Original Station list count- 8612
     - Total Atlantic count - 917
       - NB : 229
@@ -18,7 +18,7 @@
   - NL : 1040 Files
   - PE : 208 Files
 
-# Assumption for taking AQI 24 hr running Average : 
+## Assumption for taking AQI 24 hr running Average : 
 ✅ Best for:
 
 Overall daily air quality
