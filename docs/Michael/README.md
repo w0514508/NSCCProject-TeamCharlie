@@ -14,11 +14,17 @@
 
 ## Data Cleaning & Transformation Summary
 •	Removed unnecessary metadata columns from the raw dataset
+
 •	Removed rows with missing emission values
+
 •	Standardized column names and data types
+
 •	Removed duplicate records
+
 •	Reset dataframe indexes
+
 •	Simplified sector labels by removing embedded alphanumeric classification codes
+
 •	Exported cleaned datasets into CSV format for Power BI and EDA use
 
 
