@@ -38,6 +38,7 @@ This project uses authoritative, publicly available datasets published by federa
 - **Environment and Climate Change Canada (ECCC) – Daily Climate Observations**  
   Station‑level daily climate data (temperature, precipitation, wind, snow) in CSV format, accessed by province, Climate ID, and year.  
   https://dd.weather.gc.ca/today/climate/observations/
+  https://climate.weather.gc.ca/doc/Technical_Documentation.pdf
 
 - **ECCC – Historical Climate Data Portal**  
   Official portal for historical station records, climate summaries, and validated climate normals.  
