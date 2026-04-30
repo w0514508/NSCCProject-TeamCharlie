@@ -59,7 +59,7 @@ This project uses authoritative, publicly available datasets published by federa
 
 - **Government of Canada Open Data – National GHG Inventory**  
   Machine‑readable datasets supporting province‑level and sector‑level emissions analysis.  
-  https://open.canada.ca/data/en/dataset/779c10cf-4987-4b72-ad2b-ddb83b4a1b05
+  (https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810009701&cubeTimeFrame.startYear=2013&cubeTimeFrame.endYear=2023&referencePeriods=20130101%2C20230101)
 
 ---
 
