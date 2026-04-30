@@ -60,19 +60,36 @@ Provides station-level geographic context for meteorological facts.
 
 ---
 
-### Dim_Region
+
+## Dim_Region
 
 **Creation method:** DAX (Power BI calculated table)  
-**Grain:** One row per Canadian province or territory
+**Grain:** One row per Canadian province or territory  
 
-**Purpose:**  
-Represents the full Canadian geographic domain for regional aggregation across precipitation, temperature, AQI, and GHG datasets.
+### Purpose
+Represents the full Canadian geographic domain and provides **analytical grouping levels** to support regional aggregation and benchmarking (apexing) across temperature, precipitation, AQI, and GHG datasets.  
+This dimension enables comparisons at multiple scopes, including **province**, **Atlantic Canada**, **Rest of Canada**, and **All Canada**, without duplicating fact tables.
+
+---
+
+### Columns
 
 | Column | Type | Description |
 |------|------|-------------|
 | RegionID | Integer | Surrogate key |
 | ProvinceCode | Text | Province or territory code |
 | RegionName | Text | Full province or territory name |
+| MacroRegion | Text | Analytical grouping used for benchmarking (e.g., Atlantic Canada, Rest of Canada) |
+| CountryScope | Text | Country-level scope used for national benchmarks (Canada) |
+
+
+---
+
+### Notes
+- `MacroRegion` is used to support **regional benchmarking**, such as Nova Scotia vs Atlantic Canada or Atlantic Canada vs Rest of Canada.
+- `CountryScope` enables **All Canada** aggregation where national-level comparisons are supported (e.g., temperature and GHG).
+- Not all fact tables have full national coverage. For example, **precipitation analysis is scoped to Atlantic Canada**, consistent with the project charter and data availability.
+- This design supports semantic aggregation in the reporting layer without altering the underlying fact tables.
 
 ---
 
