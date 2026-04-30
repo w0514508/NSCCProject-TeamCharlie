@@ -13,8 +13,8 @@
 <img width="1220" height="501" alt="image" src="https://github.com/user-attachments/assets/38290a7f-ae27-4554-a949-f4ef912eb652" />
 
 ## Data Cleaning & Transformation Summary
-*•	Removed unnecessary metadata columns from the raw dataset
-* •	Removed rows with missing emission values
+•	Removed unnecessary metadata columns from the raw dataset
+•	Removed rows with missing emission values
 •	Standardized column names and data types
 •	Removed duplicate records
 •	Reset dataframe indexes
@@ -24,10 +24,15 @@
 
 ## Intended Analytical Use
 •	Province-by-province GHG emissions comparison
+
 •	Nova Scotia sector-level emissions analysis
+
 •	Time-series trend analysis
+
 •	KPI calculations
+
 •	Power BI dashboard visualizations
+
 •	Predictive climate and emissions forecasting models
 
 
