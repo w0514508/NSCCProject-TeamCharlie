@@ -71,7 +71,8 @@ This project uses authoritative, publicly available datasets published by federa
 
 - **Government of Canada Open Data – Air Quality Datasets**  
   Open station‑level air quality measurements used for AQI trend and exceedance analysis.  
-  https://open.canada.ca/data/en/dataset?q=air+quality+index
+  https://search.open.canada.ca/opendata/?search_text=air+quality
+  https://data-donnees.az.ec.gc.ca/data/air/monitor/national-air-pollution-surveillance-naps-program?lang=en
 
 ---
 
