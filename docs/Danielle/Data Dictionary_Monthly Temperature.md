@@ -6,7 +6,7 @@ This document describes the **source**, **aggregation process**, **assumptions**
 
 ## Data Source
 
-The monthly temperature dataset is derived from daily weather observations contained in the file Atlantic_Climate.csv. This daily dataset was created by Yashaswi Tiwari using data originally sourced from Environment and Climate Change Canada (ECCC)**.
+The monthly temperature dataset is derived from daily weather observations contained in the file dim_temp_clean.csv. This daily dataset was created by Yashaswi Tiwari using data originally sourced from Environment and Climate Change Canada (ECCC)**.
 
 Daily weather data—including temperature, precipitation, and wind variables—was cleaned and consolidated at the **daily level by the project team** as part of the broader meteorological data pipeline. This daily dataset serves as a team-level analytical foundation.
 
@@ -85,5 +85,7 @@ The `Fact_Temperature_Monthly` dataset is used to support:
 - Regional and station-level aggregation through shared dimensions
 
 This dataset is modeled as part of a **star schema** and is designed for analytical reporting rather than raw data exploration.
+
+Memo: The source of this table changed in May 2 from Atlantic_Climate.csv to dim_temp_clean.csv.
 
 ---
