@@ -76,6 +76,18 @@ In Power BI (Power Query), transformations were limited to:
 
 All substantive data preparation occurred upstream in Python.
 
+#### Filtering of Orphan Stations
+
+The `Fact_Precipitation_Monthly` table was filtered using an inner join with `Dim_Station` on `ClimateID`.  
+This step removed precipitation records associated with ClimateIDs that do not exist in the station dimension.
+
+This cleaning step was necessary to:
+- preserve dimensional integrity between facts and stations;
+- eliminate orphan records that resulted in `(Blank)` groupings in Power BI visuals;
+- ensure that precipitation values aggregate correctly by station and province.
+
+As a result, total precipitation volumes decreased after filtering, reflecting the removal of non-modelled stations rather than data loss.
+
 ---
 
 ## Assumptions
