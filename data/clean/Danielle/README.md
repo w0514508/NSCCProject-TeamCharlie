@@ -1,35 +1,51 @@
-# Clean Data – Danielle Folder
+# Clean Data – Danielle
 
-This folder contains **cleaned and derived datasets** used in the analytical star schema and Power BI model.  
-These datasets are suitable for **analysis, reporting, and visualization**.
+This folder contains **cleaned and analytical datasets** generated from raw climate data and used directly in the Power BI data model and exploratory analysis.
+
+All datasets in this folder have been validated and are considered model‑ready.
 
 ---
 
 ## Datasets
 
-### Monthly Precipitation by Station
-- **File:** `fact_precipitation_monthly.csv`
-- **Description:** Cleaned monthly total precipitation by weather station.
-- **Granularity:** Station × Month
-- **Source:** Derived from ECCC monthly climate observations.
-- **Usage:**  
-  Used for long-term precipitation trend analysis, year-over-year comparisons, and regional aggregation.
+### Monthly Aggregates
+
+- **fact_precipitation_monthly.csv**  
+  Monthly total precipitation by weather station.  
+  Derived from daily precipitation records and validated for dimensional integrity.  
+  Used for long‑term trend and year‑over‑year precipitation analysis.
+
+- **fact_temperature_monthly.csv**  
+  Monthly mean temperature by weather station.  
+  Derived from daily weather observations and used for long‑term temperature trend analysis.
 
 ---
 
-### Monthly Temperature by Station
-- **File:** `monthly_temperature_by_station.csv`
-- **Description:** Mean monthly temperature by weather station.
-- **Granularity:** Station × Month
-- **Source:** Aggregated from daily weather observations.
-- **Usage:**  
-  Used for temperature trend analysis and dual-axis visualization alongside precipitation.
+### Extreme Events
+
+- **fact_extreme_events.csv**  
+  Daily extreme weather events identified using station‑specific 95th percentile (P95) thresholds.
+
+  This dataset includes:
+  - Extreme Wind events
+  - Heavy Precipitation events
+
+  Each row represents a single extreme event at a given station and date.  
+  Multiple events may occur on the same day for the same station and are stored as separate records by event type.
+
+  This table supports frequency‑based analysis of extreme weather trends.
 
 ---
 
 ## Usage Notes
 
-- These datasets correspond directly to **fact tables documented in the Data Dictionary**.
-- Technical keys (e.g., ClimateID, Date) are used for model relationships and may be hidden in the reporting layer.
-- All data preparation and aggregation logic is documented in notebooks located under `scripts/python/Danielle/`.
-- For assumptions and transformation details, refer to the data dictionary files under `docs/Danielle/`.
+- All datasets are integrated into the Power BI model using shared dimension tables (Calendar, Station, Region).
+- Fact tables in this folder are designed for analytical use and should not require additional cleaning.
+- Temporary QA visuals were used during validation and removed after confirmation.
+- Detailed processing logic, assumptions, and definitions are documented in the corresponding Data Dictionary files under `docs/Danielle/`.
+
+---
+
+## Status
+
+All datasets in this folder are finalized and ready for analysis and reporting.
