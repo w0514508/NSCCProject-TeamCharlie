@@ -1,15 +1,15 @@
 # Final Dimensions of Climate, GHG, AQI (planned)
--Dim Temperature
--Dim Precipitation
--Statging Climate
--Dim Station
--Dim Region
--Dim Extreme events
--GHG
--Dim Wind
--Dim AQI (all pollutants)
--Dim Calendar (to be created based on all dates inclusive)
--Dim Temp Forecast
+- Dim Temperature
+- Dim Precipitation
+- Statging Climate
+- Dim Station
+- Dim Region
+- Dim Extreme events
+- GHG
+- Dim Wind
+- Dim AQI (all pollutants)
+- Dim Calendar (to be created based on all dates inclusive)
+- Dim Temp Forecast
 - Dim precipitation frequency analysis
 - Dim temperature anomaly
 - Dim Temp Trend
