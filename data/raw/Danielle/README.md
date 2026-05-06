@@ -2,31 +2,45 @@
 
 ## Overview
 
-This folder contains the **raw input datasets** used in the generation of cleaned and analytical climate datasets related to **precipitation and extreme weather events** across Atlantic Canada.
+This folder contains **raw and intermediate climate data files** used as upstream inputs for the generation of cleaned and analysis-ready datasets related to **precipitation and extreme weather events** across Atlantic Canada.
 
-These files represent **upstream data sources** and are not used directly for analysis or visualization.
+The files in this directory are **not used directly for analysis or visualization**.  
+They are retained for data lineage, traceability, and reproducibility of the processing pipeline.
 
 ---
 
 ## Contents
 
-### ✅ fact_Atlantic_Climate.csv
-Raw daily climate dataset derived from Environment and Climate Change Canada observations.
+### ✅ fact_Atlantic_Climate.zip
 
-This dataset includes daily measurements for multiple climate variables (e.g., precipitation, wind, temperature) at the station level and serves as the **primary upstream source** for:
+Compressed raw daily climate dataset derived from Environment and Climate Change Canada observations.
 
-- Monthly aggregated precipitation data
-- Extreme weather events (Extreme Wind and Heavy Precipitation)
+This dataset includes daily measurements for multiple climate variables (e.g., precipitation, wind, temperature) at the station level.
 
-This file is used during preprocessing and feature generation but is not consumed directly by the final PBIX model.
+The file is retained for **reference, traceability, and reproducibility**, particularly to document the original daily observations underlying climate indicators such as precipitation and extreme events.
+
+This dataset is **not used directly** to generate the monthly precipitation tables included in this project, as monthly aggregates were obtained directly from Environment and Climate Change Canada.
+
+---
+
+### ✅ precipitation_monthly_raw_atlantic.csv
+
+Intermediate dataset containing **monthly aggregated precipitation values** derived from daily climate observations across Atlantic Canada.
+
+This file represents a preprocessing step between raw daily climate data and the final cleaned precipitation fact table.
+
+- Granularity: one row per station per month
+- Units: millimeters (mm)
+
+This dataset is not used directly in presentation or visualization and exists to support validation and traceability.
 
 ---
 
 ## Notes
 
-- Daily climate data is retained here solely for reproducibility and traceability.
-- All analytical datasets derived from this file are stored in `data/clean/Danielle`.
-- Detailed documentation of the cleaned datasets and analytical logic is available in `docs/Danielle`.
+- Raw daily data is preserved in compressed or intermediate form only.
+- Final, analysis-ready datasets are stored in `data/clean/Danielle`.
+- Dataset definitions and analytical assumptions are documented in `docs/Danielle`.
 
 ---
 
@@ -36,4 +50,4 @@ Processed datasets generated from these raw inputs include:
 - Monthly precipitation fact tables
 - Extreme weather events fact tables
 
-Refer to `data/clean/Danielle/README.md` for details on analysis-ready datasets.
+Refer to `data/clean/Danielle/README.md` for details on cleaned datasets and analytical usage.
