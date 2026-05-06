@@ -63,12 +63,15 @@ Percentile thresholds are computed using the full historical distribution of eac
 | Column Name     | Type    | Description |
 |-----------------|---------|-------------|
 | ClimateID       | Text    | Unique identifier for the weather station |
-| Date/Time            | Date    | Date on which the extreme event occurred |
-| EventType       | Text    | Type of extreme event (`Extreme Wind`, `Heavy Precipitation`) |
-| EventValue      | Decimal | Observed daily value that exceeded the threshold (gust speed or precipitation) |
-| P95_Threshold   | Decimal | Station-specific 95th percentile threshold used to identify the event |
+| Date/Time       | Date    | Date on which the extreme event occurred |
+| EventType       | Text    | Identifies the type of extreme event. Determines how EventValue and P95_Threshold should be interpreted (wind speed for Extreme Wind, precipitation for Heavy Precipitation) |
+| EventValue      | Decimal | Observed magnitude of the extreme event. Represents daily precipitation (mm) for Heavy Precipitation events and wind gust speed (km/h) for Extreme Wind events. Interpretation depends on EventType |
+| P95_Threshold*  | Decimal | Station-specific 95th percentile threshold used to identify the event |
 | ExtremeFlag     | Integer | Binary indicator (1 = extreme event) |
 
+*For Heavy Precipitation events, this represents the daily precipitation threshold (mm).
+*For Extreme Wind events, this represents the wind gust speed threshold (km/h).
+*Interpretation of this field depends on EventType.
 ---
 
 ## Data Processing Logic
