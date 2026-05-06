@@ -1,9 +1,11 @@
-# Data Dictionary – Climate & Environmental Star Schema
+# Data Dictionary – Conceptual Climate & Environmental Star Schema — Shared Dimensions
 
-This document describes the structure of the **Climate & Environmental analytical data model**, which follows a **star schema design**.  
+This document describes the structure of the ** Conceptual Climate & Environmental analytical data model**, which follows a **star schema design**.  
 It documents all **dimension and fact tables**, including their **grain, purpose, key columns, and creation method**.
 
 The model is designed to support climate trend analysis, extreme event assessment, and environmental context reporting.
+
+Note: This document represents a conceptual overview of the climate and environmental star schema used across the project. Not all tables shown here appear in every individual PBIX model. Each team member’s analytical model focuses on a subset of these facts and dimensions.
 
 ---
 
