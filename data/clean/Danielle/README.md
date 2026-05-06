@@ -1,51 +1,69 @@
-# Clean Data – Danielle
+# Clean Data — Danielle
 
-This folder contains **cleaned and analytical datasets** generated from raw climate data and used directly in the Power BI data model and exploratory analysis.
+## Overview
 
-All datasets in this folder have been validated and are considered model‑ready.
+This folder contains the **final cleaned datasets and Power BI model** developed for the analysis of **precipitation patterns and extreme weather events** across Atlantic Canada.
 
----
-
-## Datasets
-
-### Monthly Aggregates
-
-- **fact_precipitation_monthly.csv**  
-  Monthly total precipitation by weather station.  
-  Derived from daily precipitation records and validated for dimensional integrity.  
-  Used for long‑term trend and year‑over‑year precipitation analysis.
-
-- **fact_temperature_monthly.csv**  
-  Monthly mean temperature by weather station.  
-  Derived from daily weather observations and used for long‑term temperature trend analysis.
+All files in this directory are considered **analysis-ready** and are used directly in the final PBIX model and supporting exploratory analysis.
 
 ---
 
-### Extreme Events
+## Contents
 
-- **fact_extreme_events.csv**  
-  Daily extreme weather events identified using station‑specific 95th percentile (P95) thresholds.
+### ✅ Fact_Extreme_Events_All.csv
+Event-level dataset containing identified extreme weather events, including:
+- Extreme Wind events
+- Heavy Precipitation events
 
-  This dataset includes:
-  - Extreme Wind events
-  - Heavy Precipitation events
+Extreme events are defined using **station-specific 95th percentile (P95) thresholds**, ensuring that extremes are relative to local historical conditions.
 
-  Each row represents a single extreme event at a given station and date.  
-  Multiple events may occur on the same day for the same station and are stored as separate records by event type.
+Each row represents a single extreme event occurrence.
 
-  This table supports frequency‑based analysis of extreme weather trends.
-
----
-
-## Usage Notes
-
-- All datasets are integrated into the Power BI model using shared dimension tables (Calendar, Station, Region).
-- Fact tables in this folder are designed for analytical use and should not require additional cleaning.
-- Temporary QA visuals were used during validation and removed after confirmation.
-- Detailed processing logic, assumptions, and definitions are documented in the corresponding Data Dictionary files under `docs/Danielle/`.
+📄 Detailed documentation:
+- See `docs/Danielle/Data Dictionary — Extreme Events.md`
 
 ---
 
-## Status
+### ✅ fact_precipitation.csv
+Monthly aggregated precipitation dataset derived from daily climate observations.
 
-All datasets in this folder are finalized and ready for analysis and reporting.
+- One row per station per month
+- Precipitation values expressed in millimeters (mm)
+- Designed for climate-scale analysis rather than daily variability
+
+This dataset is used to analyze:
+- Long-term precipitation patterns
+- Frequency-based indicators (e.g., wet months per year)
+
+📄 Detailed documentation:
+- See `docs/Danielle/Data Dictionary_Precipitation_sources.md`
+
+---
+
+### ✅ Precipitation_ExtremeEvents_Final.pbix
+Power BI model containing:
+- The analytical data model
+- DAX measures
+- Visualizations supporting the final findings on precipitation frequency and extreme events
+
+The PBIX relies exclusively on the cleaned datasets in this folder and does not introduce additional data sources.
+
+---
+
+## Notes
+
+- Daily climate data is used upstream during data processing but is not included in this folder.
+- No forecasting or predictive modeling is performed in this PBIX.
+- This folder is intended to support final analysis, review, and presentation.
+
+---
+
+## Relationship to Project Documentation
+
+Conceptual documentation, data dictionaries, and the high-level star schema are maintained separately in:
+- docs/Danielle/
+
+That directory provides the **conceptual and architectural context** for the cleaned datasets and PBIX stored in this folder, including:
+- Dataset-level data dictionaries
+- Definitions of shared dimensions
+- A conceptual overview of the climate and environmental star schema used across the project
