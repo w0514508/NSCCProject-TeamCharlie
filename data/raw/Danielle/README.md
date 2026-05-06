@@ -1,34 +1,39 @@
-# Raw Data – Danielle Folder
+# Raw Data — Danielle
 
-This folder contains **raw and minimally processed datasets** used as inputs for data cleaning, aggregation, and analytical modeling.  
-These files are retained for **traceability and reproducibility** purposes.
+## Overview
 
----
+This folder contains the **raw input datasets** used in the generation of cleaned and analytical climate datasets related to **precipitation and extreme weather events** across Atlantic Canada.
 
-## Datasets
-
-### Monthly Precipitation – Atlantic Canada
-- **File:** `precipitation_monthly_raw_atlantic.csv`
-- **Source:** Environment and Climate Change Canada (ECCC)
-- **Description:** Monthly climate observations containing total precipitation values by weather station.
-- **Granularity:** Station × Month
-- **Notes:**  
-  This file represents the original monthly precipitation data prior to cleaning and validation.
+These files represent **upstream data sources** and are not used directly for analysis or visualization.
 
 ---
 
-### Daily Weather Dataset – Atlantic Climate
-- **File:** `Atlantic_Climate.zip`
-- **Source:** Environment and Climate Change Canada (ECCC)
-- **Description:** Daily weather observations including temperature, precipitation, and wind variables.
-- **Granularity:** Station × Day
-- **Notes:**  
-  This dataset was prepared at the team level and is used as the basis for monthly temperature aggregation and extreme weather event analysis.
+## Contents
+
+### ✅ fact_Atlantic_Climate.csv
+Raw daily climate dataset derived from Environment and Climate Change Canada observations.
+
+This dataset includes daily measurements for multiple climate variables (e.g., precipitation, wind, temperature) at the station level and serves as the **primary upstream source** for:
+
+- Monthly aggregated precipitation data
+- Extreme weather events (Extreme Wind and Heavy Precipitation)
+
+This file is used during preprocessing and feature generation but is not consumed directly by the final PBIX model.
 
 ---
 
-## Usage Notes
+## Notes
 
-- Files in this folder should **not be used directly for reporting or visualization**.
-- All analytical use is based on cleaned or derived datasets located in the `data/clean` folder.
-- Detailed cleaning steps and assumptions are documented in the corresponding notebooks and data dictionaries under `docs/Danielle/`.
+- Daily climate data is retained here solely for reproducibility and traceability.
+- All analytical datasets derived from this file are stored in `data/clean/Danielle`.
+- Detailed documentation of the cleaned datasets and analytical logic is available in `docs/Danielle`.
+
+---
+
+## Relationship to Clean Data
+
+Processed datasets generated from these raw inputs include:
+- Monthly precipitation fact tables
+- Extreme weather events fact tables
+
+Refer to `data/clean/Danielle/README.md` for details on analysis-ready datasets.
