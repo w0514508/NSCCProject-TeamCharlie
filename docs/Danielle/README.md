@@ -1,89 +1,105 @@
-# Danielle – Summary of Data, Scripts, and Documentation
+# Danielle — Precipitation and Extreme Events Analysis
 
-This folder summarizes the **data assets, notebooks, and documentation** added to the repository under my folder.  
-It serves as an index to locate datasets and supporting material used in the analytical model.
+## Overview
 
----
+This folder contains the datasets, documentation, and analytical artefacts developed for the **Precipitation and Extreme Weather Events** component of the Atlantic Canada climate project.
 
-## Datasets
+The focus of this work is on **climate-scale patterns**, using aggregated precipitation data and event-based definitions of extreme weather to support exploratory analysis and visualization.
 
-### Raw Data
-- **Monthly Precipitation (Atlantic Canada)**  
-  Source: Environment and Climate Change Canada (ECCC)  
-  Location: `data/raw/Danielle/`
-
-- **Daily Weather Dataset (Atlantic_Climate)**  
-  Team-level daily weather data containing temperature, precipitation, and wind variables.  
-  Table originally created by Yashaswi and used as a raw source for derived and aggregated datasets.  
-  Location: `data/raw/Danielle/`
+The analytical outputs are designed to be consumed through an individual Power BI model (PBIX), which will later be combined with the rest of the team’s work at the dashboard level.
 
 ---
 
-### Clean / Analytical Data
-- **fact_precipitation_monthly.csv**  
-  Monthly total precipitation by station, derived from daily observations.  
-  Location: `data/clean/Danielle/`
+## Analytical Scope
 
-- **fact_temperature_monthly.csv**  
-  Monthly mean temperature by station, derived from daily weather observations.  
-  Location: `data/clean/Danielle/`
+The datasets and analysis in this folder focus on:
 
-- **fact_extreme_events.csv**  
-  Daily extreme weather events identified using station-specific percentile thresholds (P95).  
-  Includes extreme wind and heavy precipitation events, stored as individual event records.  
-  Location: `data/clean/Danielle/`
+- **Monthly precipitation patterns**
+  - Long-term variability
+  - Frequency-based indicators (e.g., wet months per year)
 
----
+- **Extreme weather events**
+  - Extreme Wind
+  - Heavy Precipitation
+  - Identified using station-specific 95th percentile (P95) thresholds
 
-## Scripts & Notebooks
-
-- **Script for raw data download.ipynb**  
-  Downloads monthly precipitation data from ECCC.
-
-- **Precipitation Cleaning.ipynb**  
-  Cleans, validates, and aggregates precipitation data.
-
-- **Monthly_Temperature.ipynb**  
-  Aggregates daily weather observations into monthly temperature by station.
-
-- **Extreme_Events.ipynb**  
-  Identifies extreme wind and heavy precipitation events using station-specific P95 thresholds and generates the final extreme events dataset.
-
-All notebooks are located in:  
-`scripts/python/Danielle/`
+Daily climate observations are used upstream during data processing but **are not included** in the final analytical datasets.
 
 ---
 
-## Documentation
+## Final Datasets
 
-The following technical documents are available in this folder:
+The following datasets are considered **final and cleaned** for analysis:
 
-- **Data Dictionary – Climate & Environmental Star Schema**  
-  Documents all fact and dimension tables in the model, including creation method and grain.
+### ✅ Fact_Precipitation_Monthly
+- Monthly aggregated precipitation totals (mm)
+- One row per station per month
+- Used for long-term precipitation frequency and trend analysis
 
-- **Data Dictionary – Precipitation Sources**  
-  Source description, cleaning steps, and assumptions for precipitation data.
-
-- **Data Dictionary – Monthly Temperature Sources**  
-  Documentation of the monthly temperature derivation process.
-
-- **Data Dictionary – Extreme Events**  
-  Documentation of extreme wind and heavy precipitation event definitions, thresholds, assumptions, and processing steps.
-
-- **Draft Star Schema Diagram**  
-  Visual representation of the analytical star schema.
-
-- **Scrum Notes (DOCX / PDF)**  
-  Daily scrum tracking and task notes.
-
-All documentation is located in:  
-`docs/Danielle/`
+📄 Documentation:  
+- `Data Dictionary_Precipitation_sources.md`
 
 ---
 
-## Notes
+### ✅ Fact_Extreme_Events
+- Event-level dataset containing extreme wind and heavy precipitation events
+- Extreme events are defined using **station-specific P95 thresholds**
+- Event magnitude and threshold interpretation depend on `EventType`
 
-- All datasets in this folder are integrated into the Power BI data model using shared dimension tables.
-- Fact tables are validated using temporary QA visuals to ensure dimensional integrity before final analysis.
-- Power BI transformations are limited to relationship management, data type enforcement, and presentation-layer configuration.
-- Detailed explanations for each dataset and processing step are provided in the corresponding data dictionary files.
+📄 Documentation:  
+- `Data Dictionary — Extreme Events.md`
+
+---
+
+## Shared Dimensions and Conceptual Model
+
+Several dimensions (e.g., Calendar, Station, Region) are shared across multiple datasets and analytical areas within the project.
+
+A **conceptual overview of the climate and environmental star schema**, including shared dimensions and their relationship to different fact tables, is documented separately.
+
+📄 Documentation:  
+- `Data Dictionary_Climate & Environmental Star Schema.md`
+
+🖼️ Visual reference:  
+- `Draft_Star_schema.png`
+
+> **Note:**  
+> The star schema and associated data dictionary represent a **high-level conceptual architecture** of the project.  
+> Not all tables shown in the schema appear in this individual analytical model. Each team member’s PBIX focuses on a subset of facts and dimensions relevant to their analysis.
+
+---
+
+## Power BI Model (PBIX)
+
+The PBIX file associated with this work contains:
+- The analytical data model
+- DAX measures
+- Visualizations supporting precipitation and extreme event findings
+
+The PBIX relies exclusively on the cleaned datasets documented above.  
+No additional datasets are introduced at the visualization layer.
+
+---
+
+## Folder Contents
+
+- `Data Dictionary_Precipitation_sources.md`
+- `Data Dictionary — Extreme Events.md`
+- `Data Dictionary_Conceptual Climate & Environmental Star Schema.md`
+- `Conceptual_Climate_Star_Schema.png`
+- Scrum notes documenting weekly progress
+- README (this file)
+
+---
+
+## Intended Use
+
+This documentation supports:
+- Dataset consolidation at the team level
+- Review by instructors and project stakeholders
+- Maintenance and handoff of analytical assumptions and definitions
+
+It is not intended as:
+- A complete documentation of the Power BI interface
+- A visual or presentation script
+- A predictive or forecasting specification

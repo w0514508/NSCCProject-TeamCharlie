@@ -1,113 +1,105 @@
-# Precipitation Data – Sources, Cleaning, and Assumptions
+# Data Dictionary — Precipitation (Atlantic Canada)
 
-This document describes the **data source**, **cleaning process**, **assumptions**, and **transformations** applied to the precipitation dataset used in this project.
+## Dataset Overview
+
+This dataset contains **monthly aggregated precipitation data** for Atlantic Canada, derived from daily climate observations provided by Environment and Climate Change Canada.
+
+The dataset is designed to support **climate-scale analysis** of precipitation patterns over time, focusing on frequency and long-term variability rather than day-to-day weather fluctuations.
+
+Daily precipitation data is used upstream during data processing but **is not included** in the final analytical dataset.
 
 ---
 
 ## Data Source
 
-Monthly precipitation data was obtained from **Environment and Climate Change Canada (ECCC)** through the official Government of Canada weather data distribution service.
-
-- **Source portal:**  
-  https://dd.weather.gc.ca/today/climate/observations/monthly/csv/
-
-- **Dataset type:** Monthly Climate Observations  
-- **Geographic scope:** Atlantic Canada (Nova Scotia, New Brunswick, Prince Edward Island, Newfoundland and Labrador)  
-- **Granularity:** Weather station × month  
-- **Time coverage:** Varies by station, with multi-decade historical records  
-
-Raw CSV files were downloaded programmatically and consolidated prior to cleaning.
+- **Source**: Environment and Climate Change Canada (ECCC)
+- **Original Data**: Daily precipitation observations at the weather station level
+- **Geographic Scope**: Atlantic Canada
+- **Temporal Scope**: Historical observations (monthly aggregation)
 
 ---
 
-## Raw Variable Definition
+## Final Analytical Table
 
-In the original ECCC monthly dataset:
+### **Fact_Precipitation_Monthly**
 
-- **`P`** represents **Total Monthly Precipitation (mm)**  
-- This value includes:
-  - rainfall  
-  - snowfall converted to liquid water equivalent  
-  - all forms of precipitation recorded during the month  
+This fact table stores **monthly total precipitation values**, aggregated at the station level.
 
----
+It serves as the primary dataset for analyzing:
+- Long-term precipitation patterns
+- Interannual variability
+- Precipitation frequency metrics (e.g., wet months per year)
 
-## Cleaned Dataset
-
-**Table name:** `Fact_Precipitation_Monthly`  
-**Grain:** Station × Month  
-
-### Data Dictionary
-
-| Field | Description |
-|------|------------|
-| ClimateID | Weather station identifier (foreign key to Dim_Station) |
-| Date | Monthly reference date (first day of the month, foreign key to Dim_Calendar) |
-| Precipitation_mm | Total monthly precipitation in millimeters |
-| ProvinceCode | Province code (foreign key to Dim_Region) |
+The analytical focus is intentionally placed at the **monthly and annual level** to capture climate-relevant signals while avoiding daily-level noise.
 
 ---
 
-## Cleaning and Transformation Steps
+## Table Granularity
 
-The dataset was primarily cleaned using **Python (pandas)** before ingestion into Power BI.
-
-Key steps included:
-
-- Selecting only relevant columns required for analysis
-- Casting `ClimateID` as text to preserve alphanumeric station identifiers
-- Converting precipitation values to numeric format
-- Constructing a monthly `Date` field using year and month values (`YYYY-MM-01`)
-- Removing records with missing or invalid precipitation values
-- Excluding negative precipitation values
-- Deduplicating records to ensure one row per station per month
-
-No statistical interpolation, smoothing, or imputation was applied.
+- **One row per station per month**
+- Monthly precipitation totals expressed in **millimeters (mm)**
 
 ---
 
-## Power BI Transformations
+## Column Descriptions
 
-In Power BI (Power Query), transformations were limited to:
-
-- Enforcing correct data types  
-- Removing error rows where applicable  
-- Hiding technical key fields from the reporting layer  
-
-All substantive data preparation occurred upstream in Python.
-
-#### Filtering of Orphan Stations
-
-The `Fact_Precipitation_Monthly` table was filtered using an inner join with `Dim_Station` on `ClimateID`.  
-This step removed precipitation records associated with ClimateIDs that do not exist in the station dimension.
-
-This cleaning step was necessary to:
-- preserve dimensional integrity between facts and stations;
-- eliminate orphan records that resulted in `(Blank)` groupings in Power BI visuals;
-- ensure that precipitation values aggregate correctly by station and province.
-
-As a result, total precipitation volumes decreased after filtering, reflecting the removal of non-modelled stations rather than data loss.
+### `Date`
+- Represents the reference date for the monthly aggregation
+- Typically corresponds to the month-end date
+- Used to join with the calendar dimension
 
 ---
 
-## Assumptions
+### `ClimateID`
+- Unique identifier for each Environment Canada weather station
+- Used for station-level aggregation and spatial analysis
 
-- Zero precipitation values are considered valid observations.
-- Differences in station coverage across datasets reflect real-world data availability.
-- Monthly aggregation is appropriate for long-term trend analysis and BI reporting.
-- Precipitation metrics are modeled separately from temperature metrics to preserve analytical clarity.
+---
+
+### `Precipitation_mm`
+- Total precipitation accumulated during the month
+- Unit: millimeters (mm)
+- Represents the sum of daily precipitation observations aggregated to the monthly level
+
+---
+
+## Derived Analytical Concepts
+
+### **Wet Month**
+A *wet month* is defined as:
+
+> A month in which total precipitation exceeds the **long-term monthly average** across Atlantic Canada.
+
+This definition allows precipitation frequency to be analyzed consistently at the monthly and annual scale.
+
+---
+
+### **Wet Months per Year**
+- Represents the **count of wet months within a given year**
+- Used as a frequency-based climate indicator
+- Supports comparison of precipitation patterns across different years
+
+These metrics are implemented as **analytical measures** rather than stored as physical columns in the dataset.
+
+---
+
+## Notes and Assumptions
+
+- The dataset intentionally excludes daily precipitation records from the final model
+- Monthly aggregation is used to emphasize climate-scale behavior rather than short-term variability
+- All precipitation values reflect observed totals, not modeled or interpolated data
 
 ---
 
 ## Intended Use
 
-The cleaned precipitation dataset supports:
+This dataset is intended for:
+- Exploratory Data Analysis (EDA)
+- Long-term precipitation trend analysis
+- Frequency-based climate indicators
+- Integration with other climate datasets (e.g., extreme events) at compatible temporal scales
 
-- Long-term precipitation trend analysis  
-- Year-over-year comparisons  
-- Dual-axis visualizations with monthly temperature  
-- Regional aggregation via Dim_Region  
-
-This table is part of a star schema data model and is designed for analytical reporting rather than raw data exploration.
-
----
+It is not intended for:
+- Daily weather analysis
+- Event-level modeling
+- Short-term forecasting
