@@ -1,0 +1,209 @@
+Station ID,Latitude,Longitude,CDUID,CDNAME,PRUID,PRNAME
+10102,47.56038,-52.71147,1001,Division No.  1,10,Newfoundland and Labrador
+10401,47.50513,-52.79476,1001,Division No.  1,10,Newfoundland and Labrador
+10501,48.92696,-55.65966,1006,Division No.  6,10,Newfoundland and Labrador
+10602,48.95224,-57.92207,1005,Division No.  5,10,Newfoundland and Labrador
+30118,44.64643,-63.57338,1209,Halifax,12,Nova Scotia
+30310,46.14222,-60.17252,1217,Cape Breton,12,Nova Scotia
+40103,45.95732,-66.64672,1310,York,13,New Brunswick
+40206,45.26968,-66.06151,1301,Saint John,13,New Brunswick
+40302,46.10158,-64.78966,1307,Westmorland,13,New Brunswick
+50103,45.64103,-73.49968,2466,Montréal,24,Quebec
+50109,45.50265,-73.66391,2466,Montréal,24,Quebec
+50110,45.59458,-73.64154,2466,Montréal,24,Quebec
+50113,45.54746,-73.74832,2465,Laval,24,Quebec
+50115,45.50153,-73.57431,2466,Montréal,24,Quebec
+50128,45.46832,-73.7412,2466,Montréal,24,Quebec
+50129,45.65169,-73.57382,2466,Montréal,24,Quebec
+50204,45.43599,-75.72343,2481,Gatineau,24,Quebec
+50308,46.82118,-71.22049,2423,Québec,24,Quebec
+54401,45.12062,-74.2896,2469,Le Haut-Saint-Laurent,24,Quebec
+54501,45.80942,-73.43473,2460,L'Assomption,24,Quebec
+55201,46.3037,-72.06069,2438,Bécancour,24,Quebec
+60104,45.43433,-75.676,3506,Ottawa,35,Ontario
+60204,42.31578,-83.04367,3537,Essex,35,Ontario
+60303,44.22008,-76.52141,3510,Frontenac,35,Ontario
+60430,43.70944,-79.5435,3520,Toronto,35,Ontario
+60433,43.66417,-79.38722,3520,Toronto,35,Ontario
+60434,43.54697,-79.65869,3521,Peel,35,Ontario
+60512,43.25778,-79.86167,3525,Hamilton,35,Ontario
+60903,43.00672,-81.20642,3539,Middlesex,35,Ontario
+70118,49.93207,-97.11317,4611,Division No. 11,46,Manitoba
+70119,49.89799,-97.14653,4611,Division No. 11,46,Manitoba
+80110,50.45017,-104.61722,4706,Division No.  6,47,Saskatchewan
+80211,52.13613,-106.66293,4711,Division No. 11,47,Saskatchewan
+90120,53.50022,-113.52606,4811,Division No. 11,48,Alberta
+90121,53.54823,-113.36811,4811,Division No. 11,48,Alberta
+90130,53.54445,-113.49884,4811,Division No. 11,48,Alberta
+90218,51.00943,-114.02542,4806,Division No.  6,48,Alberta
+90222,51.07922,-114.14183,4806,Division No.  6,48,Alberta
+90228,51.04701,-114.07564,4806,Division No.  6,48,Alberta
+90302,52.29867,-113.79352,4808,Division No.  8,48,Alberta
+90402,50.04893,-110.68116,4801,Division No.  1,48,Alberta
+90502,49.71621,-112.8006,4802,Division No.  2,48,Alberta
+90601,53.69874,-113.22285,4811,Division No. 11,48,Alberta
+90701,56.73341,-111.39047,4816,Division No. 16,48,Alberta
+92001,55.1766,-118.8078,4819,Division No. 19,48,Alberta
+100110,49.27921,-122.97071,5915,Greater Vancouver,59,British Columbia
+100111,49.28089,-122.84929,5915,Greater Vancouver,59,British Columbia
+100112,49.28227,-123.12188,5915,Greater Vancouver,59,British Columbia
+100118,49.26167,-123.16347,5915,Greater Vancouver,59,British Columbia
+100119,49.21519,-122.98567,5915,Greater Vancouver,59,British Columbia
+100121,49.30147,-123.02042,5915,Greater Vancouver,59,British Columbia
+100127,49.13293,-122.69422,5915,Greater Vancouver,59,British Columbia
+100128,49.14144,-123.10822,5915,Greater Vancouver,59,British Columbia
+100132,49.32399,-123.0835,5915,Greater Vancouver,59,British Columbia
+100134,49.18626,-123.15242,5915,Greater Vancouver,59,British Columbia
+100135,49.28827,-122.79157,5915,Greater Vancouver,59,British Columbia
+100138,49.36861,-123.27674,5915,Greater Vancouver,59,British Columbia
+100140,49.00988,-123.082,5915,Greater Vancouver,59,British Columbia
+100202,53.91472,-122.74194,5953,Fraser-Fort George,59,British Columbia
+100701,49.86234,-119.47737,5935,Central Okanagan,59,British Columbia
+101003,49.04258,-122.30982,5909,Fraser Valley,59,British Columbia
+101101,49.15585,-121.94028,5909,Fraser Valley,59,British Columbia
+101202,49.24523,-122.70889,5915,Greater Vancouver,59,British Columbia
+101301,49.09561,-122.5671,5915,Greater Vancouver,59,British Columbia
+101401,49.36989,-121.49912,5909,Fraser Valley,59,British Columbia
+101501,49.21494,-122.58206,5915,Greater Vancouver,59,British Columbia
+101701,52.98169,-122.49323,5941,Cariboo,59,British Columbia
+102401,54.78331,-127.17732,5951,Bulkley-Nechako,59,British Columbia
+105604,49.05584,-119.50792,5907,Okanagan-Similkameen,59,British Columbia
+106800,48.9218,-125.54121,5923,Alberni-Clayoquot,59,British Columbia
+119003,60.71861,-135.04919,6001,Yukon,60,Yukon
+129003,62.45207,-114.364,6106,Region 6,61,Northwest Territories
+8204020,44.83,-64.51,1206,Lunenburg,12,Nova Scotia
+8400104,47.31,-54.0,1001,Division No.  1,10,Newfoundland and Labrador
+8100300,46.71,-67.72,1312,Victoria,13,New Brunswick
+8200255,43.45,-65.47,1201,Shelburne,12,Nova Scotia
+8400301,48.97,-56.07,1006,Division No.  6,10,Newfoundland and Labrador
+8100468,47.8,-64.87,1315,Gloucester,13,New Brunswick
+8100467,47.8,-64.83,1315,Gloucester,13,New Brunswick
+8100506,47.63,-65.74,1315,Gloucester,13,New Brunswick
+8200558,44.82,-62.33,1209,Halifax,12,Nova Scotia
+8200573,44.71,-63.63,1209,Halifax,12,Nova Scotia
+8200574,44.75,-63.66,1209,Halifax,12,Nova Scotia
+8400506,49.62,-57.92,1009,Division No.  9,10,Newfoundland and Labrador
+8400601,48.67,-53.11,1007,Division No.  7,10,Newfoundland and Labrador
+8200604,44.29,-66.35,1203,Digby,12,Nova Scotia
+8400801,47.62,-57.62,1003,Division No.  3,10,Newfoundland and Labrador
+8400812,48.17,-57.33,1003,Division No.  3,10,Newfoundland and Labrador
+8401000,46.66,-53.08,1001,Division No.  1,10,Newfoundland and Labrador
+8200774,45.77,-62.68,1212,Pictou,12,Nova Scotia
+8501106,53.68,-57.04,1010,Division No. 10,10,Newfoundland and Labrador
+8100885,47.99,-66.33,1314,Restigouche,13,New Brunswick
+8300301,46.29,-63.12,1102,Queens,11,Prince Edward Island
+8200828,46.65,-60.95,1215,Inverness,12,Nova Scotia
+8501136,53.56,-64.09,1010,Division No. 10,10,Newfoundland and Labrador
+8501131,53.56,-64.11,1010,Division No. 10,10,Newfoundland and Labrador
+8201001,45.49,-62.01,1214,Antigonish,12,Nova Scotia
+8401295,49.32,-57.39,1005,Division No.  5,10,Newfoundland and Labrador
+8401300,48.95,-57.95,1005,Division No.  5,10,Newfoundland and Labrador
+8401298,48.93,-57.92,1005,Division No.  5,10,Newfoundland and Labrador
+8401405,50.24,-57.58,1009,Division No.  9,10,Newfoundland and Labrador
+8201390,45.42,-63.47,1210,Colchester,12,Nova Scotia
+8401500,49.17,-57.43,1005,Division No.  5,10,Newfoundland and Labrador
+8401502,49.21,-57.39,1005,Division No.  5,10,Newfoundland and Labrador
+8101201,46.59,-66.01,1309,Northumberland,13,New Brunswick
+8300418,46.46,-61.99,1101,Kings,11,Prince Edward Island
+8101303,47.42,-68.32,1313,Madawaska,13,New Brunswick
+8401538,50.72,-56.11,1009,Division No.  9,10,Newfoundland and Labrador
+8201780,45.92,-60.65,1217,Cape Breton,12,Nova Scotia
+8401565,51.02,-57.1,1009,Division No.  9,10,Newfoundland and Labrador
+8101605,45.92,-66.61,1310,York,13,New Brunswick
+8101505,45.87,-66.54,1303,Sunbury,13,New Brunswick
+8101746,45.6,-64.95,1306,Albert,13,New Brunswick
+8101792,45.83,-66.43,1303,Sunbury,13,New Brunswick
+8401705,48.95,-54.57,1006,Division No.  6,10,Newfoundland and Labrador
+8401703,48.94,-54.57,1006,Division No.  6,10,Newfoundland and Labrador
+8104905,45.29,-65.81,1301,Saint John,13,New Brunswick
+8501900,53.32,-60.42,1010,Division No. 10,10,Newfoundland and Labrador
+8201969,46.55,-61.04,1215,Inverness,12,Nova Scotia
+8101925,44.71,-66.8,1302,Charlotte,13,New Brunswick
+840B053,48.17,-52.94,1001,Division No.  1,10,Newfoundland and Labrador
+8202000,44.98,-64.92,1207,Kings,12,Nova Scotia
+8202240,44.66,-63.58,1209,Halifax,12,Nova Scotia
+8202252,44.59,-63.55,1209,Halifax,12,Nova Scotia
+8202251,44.88,-63.51,1209,Halifax,12,Nova Scotia
+8202249,44.88,-63.51,1209,Halifax,12,Nova Scotia
+8202255,44.66,-63.61,1209,Halifax,12,Nova Scotia
+8501915,53.41,-60.56,1010,Division No. 10,10,Newfoundland and Labrador
+830P001,46.34,-63.17,1102,Queens,11,Prince Edward Island
+8202318,45.35,-60.98,1213,Guysborough,12,Nova Scotia
+8502400,55.45,-60.22,1011,Division No. 11,10,Newfoundland and Labrador
+8202502,46.66,-60.41,1218,Victoria,12,Nova Scotia
+8202592,44.4,-65.2,1204,Queens,12,Nova Scotia
+8202810,45.07,-64.48,1207,Kings,12,Nova Scotia
+8102326,46.79,-65.01,1308,Kent,13,New Brunswick
+8402520,49.92,-55.67,1008,Division No.  8,10,Newfoundland and Labrador
+8202896,44.72,-63.48,1209,Halifax,12,Nova Scotia
+8402544,48.35,-53.9,1007,Division No.  7,10,Newfoundland and Labrador
+8203163,45.92,-59.97,1217,Cape Breton,12,Nova Scotia
+8203210,44.36,-64.3,1206,Lunenburg,12,Nova Scotia
+8102536,45.95,-66.9,1310,York,13,New Brunswick
+8502580,55.08,-59.19,1011,Division No. 11,10,Newfoundland and Labrador
+8203405,44.98,-62.48,1209,Halifax,12,Nova Scotia
+8305500,46.3,-63.58,1103,Prince,11,Prince Edward Island
+840KN90,47.33,-54.59,1002,Division No.  2,10,Newfoundland and Labrador
+8502592,52.3,-55.85,1010,Division No. 10,10,Newfoundland and Labrador
+8203478,44.6,-63.53,1209,Halifax,12,Nova Scotia
+8102848,45.69,-65.17,1305,Kings,13,New Brunswick
+8402757,48.82,-56.54,1006,Division No.  6,10,Newfoundland and Labrador
+8100989,47.01,-65.47,1309,Northumberland,13,New Brunswick
+8103050,48.01,-64.49,1315,Gloucester,13,New Brunswick
+8103202,46.11,-64.68,1307,Westmorland,13,New Brunswick
+8103201,46.11,-64.68,1307,Westmorland,13,New Brunswick
+8502799,56.55,-61.68,1011,Division No. 11,10,Newfoundland and Labrador
+8502801,56.55,-61.68,1011,Division No. 11,10,Newfoundland and Labrador
+8502810,56.55,-61.68,1011,Division No. 11,10,Newfoundland and Labrador
+8203702,45.76,-64.24,1211,Cumberland,12,Nova Scotia
+8300516,47.06,-64.0,1103,Prince,11,Prince Edward Island
+8204161,46.82,-60.67,1215,Inverness,12,Nova Scotia
+8204154,46.37,-60.98,1215,Inverness,12,Nova Scotia
+8103780,45.51,-66.1,1305,Kings,13,New Brunswick
+8204190,44.61,-63.42,1209,Halifax,12,Nova Scotia
+8204402,45.41,-64.35,1211,Cumberland,12,Nova Scotia
+8204453,44.77,-63.83,1209,Halifax,12,Nova Scotia
+8104201,45.07,-66.45,1301,Saint John,13,New Brunswick
+840BR7C,49.11,-53.58,1007,Division No.  7,10,Newfoundland and Labrador
+8402980,47.57,-59.15,1003,Division No.  3,10,Newfoundland and Labrador
+8204495,45.66,-61.37,1215,Inverness,12,Nova Scotia
+8104295,47.44,-65.6,1315,Gloucester,13,New Brunswick
+8204708,43.93,-60.01,1209,Halifax,12,Nova Scotia
+8204703,43.93,-59.96,1209,Halifax,12,Nova Scotia
+8503249,58.48,-62.59,1011,Division No. 11,10,Newfoundland and Labrador
+8403255,47.37,-55.79,1003,Division No.  3,10,Newfoundland and Labrador
+8104901,45.32,-65.89,1301,Saint John,13,New Brunswick
+8205090,44.63,-63.5,1209,Halifax,12,Nova Scotia
+8205093,44.63,-63.52,1209,Halifax,12,Nova Scotia
+8205092,44.63,-63.51,1209,Halifax,12,Nova Scotia
+8205130,43.7,-65.32,1201,Shelburne,12,Nova Scotia
+8400416,47.86,-55.86,1003,Division No.  3,10,Newfoundland and Labrador
+8403399,51.38,-56.1,1009,Division No.  9,10,Newfoundland and Labrador
+8403603,47.51,-52.78,1001,Division No.  1,10,Newfoundland and Labrador
+8403619,46.92,-55.38,1002,Division No.  2,10,Newfoundland and Labrador
+8204909,47.23,-60.14,1218,Victoria,12,Nova Scotia
+8403389,51.39,-56.07,1009,Division No.  9,10,Newfoundland and Labrador
+8403505,47.62,-52.75,1001,Division No.  1,10,Newfoundland and Labrador
+8300562,46.45,-62.58,1101,Kings,11,Prince Edward Island
+8104935,45.21,-67.25,1302,Charlotte,13,New Brunswick
+8300590,46.42,-63.08,1102,Queens,11,Prince Edward Island
+8403801,48.54,-58.55,1004,Division No.  4,10,Newfoundland and Labrador
+8403820,48.56,-58.57,1004,Division No.  4,10,Newfoundland and Labrador
+8300596,46.44,-63.84,1103,Prince,11,Prince Edward Island
+8105210,45.74,-65.53,1305,Kings,13,New Brunswick
+8205701,46.16,-60.05,1217,Cape Breton,12,Nova Scotia
+8205703,46.16,-60.05,1217,Cape Breton,12,Nova Scotia
+8205702,46.16,-60.04,1217,Cape Breton,12,Nova Scotia
+8403851,48.56,-53.97,1007,Division No.  7,10,Newfoundland and Labrador
+8205895,45.61,-61.68,1214,Antigonish,12,Nova Scotia
+8404025,49.68,-54.8,1008,Division No.  8,10,Newfoundland and Labrador
+8204193,45.23,-63.06,1210,Colchester,12,Nova Scotia
+8504177,52.92,-66.86,1010,Division No. 10,10,Newfoundland and Labrador
+8504176,52.92,-66.86,1010,Division No. 10,10,Newfoundland and Labrador
+8206240,43.99,-64.66,1204,Queens,12,Nova Scotia
+8404242,47.14,-55.33,1002,Division No.  2,10,Newfoundland and Labrador
+8105603,46.15,-67.54,1311,Carleton,13,New Brunswick
+8404343,47.71,-59.31,1004,Division No.  4,10,Newfoundland and Labrador
+8206495,43.83,-66.09,1202,Yarmouth,12,Nova Scotia
+8206496,43.83,-66.09,1202,Yarmouth,12,Nova Scotia
+8206491,43.83,-66.09,1202,Yarmouth,12,Nova Scotia
