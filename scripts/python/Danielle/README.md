@@ -31,6 +31,10 @@ The analysis focuses on:
 
 This notebook was used to validate extreme event definitions and inform analytical decisions prior to building the final Power BI model.
 
+### EDA Outputs
+
+This exploratory analysis produced an annual aggregation of extreme event frequency, used to validate temporal trends and support downstream BI reporting. These outputs are treated as frozen analytical artifacts.
+
 ---
 
 ### **Precipitation Cleaning.ipynb**
