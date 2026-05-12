@@ -1,144 +1,104 @@
-Extreme Events - Sources, Cleaning, and Assumptions
+# 📘 Data Dictionary — Extreme Events
 
-## Overview
+## Table: `Fact_Extreme_Events`
 
-This document describes the structure, sources, and processing logic used to identify and analyze extreme weather events in the Atlantic Canada climate dataset. Extreme events are derived from daily observations and are designed to support frequency-based trend analysis rather than intensity aggregation.
+### Table Description
 
----
+`Fact_Extreme_Events` is an **event-level fact table** containing all identified **extreme weather events** (extreme wind and heavy precipitation) observed at weather stations across Atlantic Canada.
 
-## Data Sources
+An extreme event is defined using a **station-specific 95th percentile threshold**, meaning this table includes **only rare tail events**, not regular daily observations.
 
-### Daily Climate Data
-
-- **Source:** Environment and Climate Change Canada (ECCC)
-- **Files:**
-  - `fact_Atlantic_Climate.csv` (raw daily observations)
-- **Spatial Scope:** Atlantic Canada weather stations
-- **Temporal Scope:** Historical daily records (multi-decadal coverage)
+The table is intentionally modeled as a **single unified fact table**, with event type handled as a categorical attribute, rather than separate tables for wind and precipitation. This design supports consistent frequency-based analysis and clean BI reporting.
 
 ---
 
-## Fact Table: Fact_Extreme_Events
+## Grain
 
-### Purpose
-The `Fact_Extreme_Events` table captures statistically extreme weather events at the daily level. Each record represents a single extreme event occurring at a specific station on a given date.
+**One row per extreme weather event**, per station, per date.
 
-This fact table supports analysis of **event frequency**, spatial distribution, and long-term trends.
-
----
-
-### Grain
-- **One row per extreme event**
-- Identified by:
-  - `ClimateID`
-  - `Date/Time`
-  - `EventType`
-
-Multiple extreme events may occur at the same station on the same date and are stored as separate records.
+Each row represents a single instance where an observed value exceeded the station-specific extreme threshold.
 
 ---
 
-### Event Definition
+## Columns
 
-Extreme events are defined using **station-specific percentile thresholds** to ensure comparability across locations with different climatological baselines.
-
-#### Extreme Wind
-- Definition:  
-  Daily maximum wind gust ≥ **95th percentile (P95)** of historical wind gusts for that station
-- Source variable:
-  - Daily maximum gust speed (km/h)
-
-#### Heavy Precipitation
-- Definition:  
-  Daily total precipitation ≥ **95th percentile (P95)** of historical daily precipitation totals for that station
-- Source variable:
-  - Daily total precipitation (mm)
-
-Percentile thresholds are computed using the full historical distribution of each station’s daily observations.
+### `Date`
+- **Type:** Date  
+- **Description:** Calendar date on which the extreme event occurred.
+- **Usage:** Primary temporal key; joins to `Dim_Calendar[Date]`.
 
 ---
 
-### Columns
-
-| Column Name     | Type    | Description |
-|-----------------|---------|-------------|
-| ClimateID       | Text    | Unique identifier for the weather station |
-| Date/Time       | Date    | Date on which the extreme event occurred |
-| EventType       | Text    | Identifies the type of extreme event. Determines how EventValue and P95_Threshold should be interpreted (wind speed for Extreme Wind, precipitation for Heavy Precipitation) |
-| EventValue      | Decimal | Observed magnitude of the extreme event. Represents daily precipitation (mm) for Heavy Precipitation events and wind gust speed (km/h) for Extreme Wind events. Interpretation depends on EventType |
-| P95_Threshold*  | Decimal | Station-specific 95th percentile threshold used to identify the event |
-| ExtremeFlag     | Integer | Binary indicator (1 = extreme event) |
-
-*For Heavy Precipitation events, this represents the daily precipitation threshold (mm).
-*For Extreme Wind events, this represents the wind gust speed threshold (km/h).
-*Interpretation of this field depends on EventType.
----
-
-## Data Processing Logic
-
-1. Daily observations are filtered to remove missing values.
-2. Station-specific P95 thresholds are calculated using historical daily distributions.
-3. Extreme events are identified where observed values exceed or equal the P95 threshold.
-4. Events are stored as individual records and appended vertically by event type.
-5. Records are enriched via dimension tables (Station, Region, Calendar) during Power BI integration.
-
-No temporal aggregation is applied within this table.
+### `ClimateID`
+- **Type:** String  
+- **Description:** Unique identifier for the weather station where the extreme event was observed.
+- **Usage:** Foreign key linking to `Dim_Station`.
 
 ---
 
-## Integration with Dimensional Model
-
-The `Fact_Extreme_Events` table is integrated into the star schema using the following relationships:
-
-- `ClimateID` → `Dim_Station`
-- `Date` → `Dim_Calendar`
-
-Geographic attributes (e.g., Province, Region) are resolved through dimension joins rather than stored directly in the fact table.
-
----
-
-## Analytical Notes
-
-- Extreme events are analyzed using **frequency counts**, not summed intensity.
-- Percentile-based thresholds provide a robust, location-aware definition of “extreme.”
-- This structure supports:
-  - Trend analysis over time
-  - Comparison between wind and precipitation extremes
-  - Filtering by region (e.g., Nova Scotia stations)
+### `EventType`
+- **Type:** Categorical (String)  
+- **Description:** Type of extreme weather event.
+- **Possible values:**
+  - `Extreme Wind`
+  - `Extreme Precipitation`
+- **Notes:** Differentiates event categories within a single fact table.
 
 ---
 
-## QA and Validation
-
-All extreme event records were validated in Power BI using temporary QA visuals to confirm:
-- Absence of blank station or region values
-- Correct reapplication of station merges after data append
-- Plausible spatial and temporal distributions of events
-
-Temporary QA visuals were removed after validation.
+### `EventValue`
+- **Type:** Numeric  
+- **Description:** Observed wind speed or precipitation amount associated with the extreme event.
+- **Notes:** Used for validation and distribution analysis; not used as the primary BI metric.
 
 ---
 
-## Design Decisions
-
-- Extreme events are stored in a single fact table and differentiated by event type.
-- The fact table grows vertically (append-only) as new event types are added.
-- Station-level percentile thresholds are preferred over fixed cut-offs to reduce geographic bias.
+### `P95_Threshold`
+- **Type:** Numeric  
+- **Description:** Station-specific 95th percentile threshold used to classify an observation as an extreme event.
+- **Notes:** Threshold values are computed upstream during the extreme-event identification process and stored directly in the fact table. They are used in the EDA phase for validation and interpretation, not recalculated.
 
 ---
 
-## Assumptions
+### `ExtremeFlag`
+- **Type:** Integer (Boolean)  
+- **Description:** Indicator confirming that the record represents an extreme event.
+- **Value:** Always `1` in this table.
+- **Notes:** Included for transparency and lineage purposes, explicitly documenting that all records in the table correspond to pre-identified extreme events.
 
-The following assumptions were made to support the identification and analysis of extreme weather events:
 
-- Daily climate observations are assumed to be sufficiently complete and reliable for percentile-based threshold calculation after standard cleaning and removal of missing values.
+---
 
-- Station-specific historical distributions are assumed to represent an appropriate baseline for defining statistical extremes at each location.
+## Intended Analytical Use
 
-- Extreme events are defined relative to a station’s own climatology (percentile-based) rather than using fixed absolute thresholds, under the assumption that local variability provides a more meaningful definition of rarity.
+This fact table is designed to support:
 
-- Multiple extreme events may occur at the same station on the same date (e.g., extreme wind and heavy precipitation) and are treated as distinct events.
+- Annual frequency of extreme events  
+- Frequency by event type  
+- Temporal trend analysis  
+- Composition analysis of extreme events (wind vs precipitation)
 
-- Event frequency is the primary analytical focus; intensity values are stored for context but are not aggregated or summed.
+The table is **not intended** for forecasting event magnitude or analyzing non-extreme conditions.
 
-- Partial years at the end of the time series may contain incomplete records and should be interpreted with caution in trend analysis.
+---
+
+## Time Scope
+
+- Analysis includes **complete calendar years only**, from **1995 through 31/12/2025**.
+- Partial-year data beyond this cutoff are intentionally excluded to prevent temporal bias in frequency analysis.
+
+---
+
+## Assumptions & Limitations
+
+- The table contains **only extreme events**; non-extreme daily observations are excluded by design.
+- Results reflect **observed frequency changes**, not causal relationships.
+- Earlier years may underrepresent true event frequency due to changes in data collection and observation practices.
+
+---
+
+## Modeling Notes
+
+- `Fact_Extreme_Events` is the **canonical fact table** for extreme weather events.
+- No surrogate event key is required, as each row represents a distinct event defined by date, station, and event type.
+- Aggregations (e.g., annual counts) are implemented through BI measures rather than stored summary tables.
