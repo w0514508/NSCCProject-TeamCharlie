@@ -20,3 +20,28 @@ Reviewed the data model focusing on structure, grain consistency, and integratio
 
 **Summary:**
 The model provides a solid foundation and supports multi-domain analysis, with opportunities to improve clarity and consistency.
+
+
+---
+
+## Danielle — Review of GHG Model from Michael
+
+### Internal Review — GHG Data Model and Measures
+
+Reviewed the GHG model with focus on data structure, table design, and measure definition.
+
+**Strengths:**
+- Clear separation of fact and dimension tables, with Fact_GHG as central table
+- Use of Dim_Province and Dim_Sector enables flexible analysis
+- Inclusion of forecast table supports predictive layer
+- Identified measures align with analytical goals
+
+**Suggestions:**
+- Review the role of Dim_Date, as it contains measure-like fields that should be defined as DAX measures
+- Ensure consistent definition of calculated metrics as measures
+- Validate that the model preserves a clear grain (province, sector, year)
+- Confirm relationship structure supports correct filter propagation
+
+**Summary:**
+The model provides a solid structural foundation. Refining table roles and measure definitions will improve clarity and consistency.
+
